@@ -25,7 +25,7 @@ export default function Home() {
             <div className="container">
                 <Portfolio/>
             </div>
-            <img className="wrapper-bg" src="/images/joinvest-bg.png"/>
+            <img className="wrapper-bg" src="./images/joinvest-bg.png"/>
         </div>
         <Footer/>
         <style>{`

@@ -29,9 +29,9 @@ export default function Home() {
                             content: `Analyze with joinvest is the next step activity from the learn with joinvest, where here we invite our audiences to analyze their stockpick using the tools that we have been created before
                     `
                         }
-                    ]} contentImg="/images/joinvest-content.png" />
+                    ]} contentImg="./images/joinvest-content.png" />
                 </div>
-                <img className="wrapper-bg" src="/images/joinvest-bg.png" />
+                <img className="wrapper-bg" src="./images/joinvest-bg.png" />
             </div>
             <Footer />
             <style>{`

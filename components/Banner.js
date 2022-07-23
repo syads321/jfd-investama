@@ -2,7 +2,7 @@ import React from "react"
 import MainMenu from "./MainMenu"
 export default function Banner({children, height = 809}) {
     return (
-        <div className="bg-image" style={{ backgroundImage: 'ur(./images/banner.jpg)', height:height }}>
+        <div className="bg-image" style={{ background: 'ur(./images/banner.jpg)', height:height }}>
             <>
                 <MainMenu/>
                 <div className="container">

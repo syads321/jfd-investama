@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
@@ -16,7 +17,7 @@ export default function Home() {
         </p>
         <div className="group-3 flex-col-hstart-vstart">
           <div className="learn-more flex-col-hstart-vstart">
-            <p className="txt-954">Learn More</p>
+          <Link href="/about"><p className="txt-954">Learn More</p></Link>
           </div>
         </div>
       </Banner>
@@ -66,6 +67,7 @@ export default function Home() {
             color: rgba(255, 255, 255, 1);
             word-wrap: break-word;
             margin-top: 0px;
+            cursor:pointer;
           }
 
       `}</style>

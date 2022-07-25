@@ -1,4 +1,5 @@
 import React from "react"
+import Link from 'next/link'
 
 export default function Footer() {
     return (
@@ -32,10 +33,11 @@ export default function Footer() {
                                 </div>
                             </div>
                             <p className="txt-702">000-000-000-000</p>
-                            <p className="txt-828">Sampoerna Strategic Square</p>
+                            <p className="txt-828">Office 88</p>
                             <p className="txt-093">
-                                Jl. Jendral Soedirman Kav. 45-46, South Jakarta City, Jakarta
-                                Indonesia
+                            Jl. Casablanca Raya Kav. 88 Office 88 Lt. 9 Unit A
+Office 88, Kota Casablanca, Kel. Menteng Dalam,
+Kec. Tebet, Jakarta Selatan, 12870.
                             </p>
                         </div>
                         <img
@@ -65,23 +67,23 @@ export default function Footer() {
                     <div className="footer-menu flex-col">
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <p className="txt-661">Home</p>
+                            <Link href="/"><p className="txt-661">Home</p></Link>
                         </div>
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <p className="txt-661">Who We Are</p>
+                            <Link href="/about"><p className="txt-661">Who We Are</p></Link>
                         </div>
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <p className="txt-661">What We Do</p>
+                            <Link href="/whatwedo"><p className="txt-661">What We Do</p></Link>
                         </div>
                         <div className="group-1110 flex-row">
                             <p className="txt-2105"> </p>
-                            <p className="txt-661">News</p>
+                            <Link href="/news"><p className="txt-661">News</p></Link>
                         </div>
                         <div className="flex-row">
                             <p className="txt-2105"> </p>
-                            <p className="txt-661">Contact</p>
+                            <Link href="/contact"><p className="txt-661">Contact</p></Link>
                         </div>
                     </div>
                     <div className="contact-form flex-col">
@@ -141,7 +143,7 @@ export default function Footer() {
               position: relative;
               margin-right: 119px;
               box-sizing: border-box;
-              width: 333.75px;
+              width: 400px;
               height: 100%;
             }
             
@@ -149,7 +151,6 @@ export default function Footer() {
               position: absolute;
               top: 0px;
               none: 0px;
-              width: 335px;
               height: 204px;
             }
             
@@ -220,7 +221,6 @@ export default function Footer() {
               font-family: Gilroy-Regular, sans-serif;
               font-weight: undefined;
               color: rgba(255, 255, 255, 1);
-              width: 229px;
               height: 54px;
               word-wrap: break-word;
               margin-bottom: 12px;
@@ -238,7 +238,6 @@ export default function Footer() {
               position: absolute;
               top: 0px;
               none: 0px;
-              width: 335px;
               height: 204px;
             }
             
@@ -435,7 +434,9 @@ export default function Footer() {
                 top: 47px;
                 left: 50px;
               }
-            
+            .footer-menu p {
+              cursor:pointer;
+            }
       
       `}</style>
         </div>

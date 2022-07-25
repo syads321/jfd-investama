@@ -14,10 +14,11 @@ export default function ContactBody() {
             />
             <p className="txt-034">Virtual Office</p>
           </div>
-          <p className="txt-590">Sampoerna Strategic Square</p>
+          <p className="txt-590">Office 88</p>
           <p className="txt-928">
-            Jl. Jendral Soedirman Kav. 45-46, South Jakarta City, Jakarta
-            Indonesia
+          Jl. Casablanca Raya Kav. 88 Office 88 Lt. 9 Unit A
+Office 88, Kota Casablanca, Kel. Menteng Dalam,
+Kec. Tebet, Jakarta Selatan, 12870.
           </p>
         </div>
         <div className="contact-phone flex-col">
@@ -69,6 +70,7 @@ export default function ContactBody() {
         .contact-body {
           height: 288px;
           margin-top: -383px;
+          margin-bottom: 95px;
         }
         
         .group-365 {

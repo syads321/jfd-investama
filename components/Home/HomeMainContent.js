@@ -1,4 +1,5 @@
 import React from "react"
+import Link from 'next/link'
 
 export default function HomeMainContent() {
   return (
@@ -26,7 +27,7 @@ export default function HomeMainContent() {
                 their philosophy by putting forwards energy to giving back to
                 society, that encourages educational, financial and social growth.
             </p>
-            <p className="txt-173 flex-hend">More About Us </p>
+            <Link href="/about"><p className="txt-173 flex-hend">More About Us </p></Link>
             </div>
         </div>
         <style jsx>{`
@@ -130,6 +131,7 @@ export default function HomeMainContent() {
             text-align: right;
             word-wrap: break-word;
             text-align:left;
+            cursor:pointer;
             }
 
             .vector-1 {

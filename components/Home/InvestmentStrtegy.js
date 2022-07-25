@@ -60,6 +60,7 @@ export default function InvestmentStrategy() {
         width: 1493.93px;
         height: 618.38px;
         margin-top: -22px;
+        pointer-events:none;
       }
       
       .mid-content {

@@ -21,6 +21,7 @@ export default function Home() {
                 <div className='container-wrapper'>
                     <WwdItem />
                     <WwdItem
+                    url="/joinvest"
                         bgImage='https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/jung0zql22-24%3A1151?alt=media&token=a53e674f-f35e-42e6-a0f6-af9cff266041'
                         tag='Community'
                         content={(
@@ -69,6 +70,7 @@ export default function Home() {
                 -ms-flex-direction: row;
                 flex-direction: row;
                 margin-bottom: 157px;
+                overflow:hidden;
             }
             .container-wrapper .wwd-item:last-child {
                 margin-left:15px;

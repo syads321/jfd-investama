@@ -27,8 +27,8 @@ export default function Home() {
           font-family: Gilroy-Black, sans-serif;
           font-weight: undefined;
           color: rgba(255, 255, 255, 1);
-          width: 856px;
-          height: 106px;
+          // width: 856px;
+          // height: 106px;
           word-wrap: break-word;
           margin-bottom: 20px;
           margin-top: 0px;
@@ -39,8 +39,8 @@ export default function Home() {
           font-family: Gilroy-Medium, sans-serif;
           font-weight: undefined;
           color: rgba(255, 255, 255, 1);
-          width: 765px;
-          height: 89px;
+          // width: 765px;
+          // height: 89px;
           word-wrap: break-word;
           margin-bottom: 71px;
           margin-top: 0px;

@@ -54,9 +54,10 @@ export default function AboutContent() {
       .about-content {
         position: relative;
         background-color: rgba(255, 255, 255, 1);
-        width: 1077px;
+        width: 100%;
         height: 592.5px;
         margin-top: -373px;
+        max-width: 1070px;
       }
       
       .txt-376 {
@@ -74,7 +75,7 @@ export default function AboutContent() {
       
       .group-341 {
         none: 0px;
-        width: 951px;
+        // width: 951px;
         height: 465px;
         background: #FFF;
         padding-top: 61px;
@@ -83,22 +84,26 @@ export default function AboutContent() {
       .group-833 {
         margin-bottom: 7px;
         box-sizing: border-box;
-        width: 100%;
+        // width: 86%;
+        padding: 54px;
+        padding-top: 0px;
+        padding-bottom: 0px;
       }
       
       .group-982 {
-        margin-right: 51px;
+        // margin-right: 51px;
         box-sizing: border-box;
-        height: fit-content;
-        padding-left: 67px;
+        // height: fit-content;
+        // padding-left: 67px;
+        max-width: 511px;
       }
       
       .txt-440 {
         font-size: 48px;
         font-family: Gilroy-Black, sans-serif;
         color: #0B2B40;
-        width: 399px;
-        height: 71px;
+        // width: 399px;
+        // height: 71px;
         word-wrap: break-word;
         margin-bottom: 18px;
       }
@@ -107,7 +112,7 @@ export default function AboutContent() {
         font-size: 18px;
         font-family: Gilroy-Medium, sans-serif;
         color: rgba(131, 131, 131, 1);
-        width: 463px;
+        // width: 463px;
         height: 125px;
         word-wrap: break-word;
         margin-bottom: 53px;
@@ -118,14 +123,16 @@ export default function AboutContent() {
         font-family: Gilroy-Medium, sans-serif;
         font-weight: undefined;
         color: rgba(131, 131, 131, 1);
-        width: 473px;
-        height: 125px;
+        // width: 473px;
+        // height: 125px;
         word-wrap: break-word;
       }
       
       .vector {
-        width: 424.5px;
-        height: 424.17px;
+        // width: 424.5px;
+        // height: 424.17px;
+        width: 100%;
+        padding:20px;
       }
       
       .txt-8100 {
@@ -141,7 +148,7 @@ export default function AboutContent() {
         width: 253px;
         height: 44.5px;
         padding-left: 67px;
-        margin-top: 10px;
+        margin-top: -19px;
       }
       
       .txt-702 {

@@ -1,20 +1,21 @@
 import React from "react"
+import Link from 'next/link'
 
 export default function WwdItem({
-    bgImage = 'https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/g1hdv7oxgkt-256%3A238?alt=media&token=72d400cc-10db-4ea5-9895-3f2889667750', 
-    tag = 'Investment',
-    content = (
-        <>
-            <p className="txt-827">Our Investment Strategy</p>
-            <p className="txt-113"> > GO THROUGH</p>
-            <style jsx>{`
+  bgImage = 'https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/g1hdv7oxgkt-256%3A238?alt=media&token=72d400cc-10db-4ea5-9895-3f2889667750',
+  tag = 'Investment',
+  content = (
+    <>
+      <p className="txt-827">Our Investment Strategy</p>
+      <p className="txt-113"> > GO THROUGH</p>
+      <style jsx>{`
                 .txt-827 {
                     font-size: 30px;
                     font-family: Gilroy-Black, sans-serif;
                     font-weight: undefined;
                     color: rgba(11, 43, 64, 1);
-                    width: 342px;
-                    height: 76px;
+                    // width: 342px;
+                    // height: 76px;
                     word-wrap: break-word;
                     margin-bottom: 18px;
                     margin-top: 0px;
@@ -29,21 +30,24 @@ export default function WwdItem({
                     margin-top: 0px;
                   }
             `}</style>
-        </>
-    )
-    }) {
-    return (
-        <div className="wwd-item flex-col-hstart-vstart">
-            <div className="group-359" style={{ backgroundImage: `url(${bgImage})`}}>
-                <div className="group-175">
-                    <p className="txt-639">{tag}</p>
-                </div>
-            </div>
-            <div className="group-2310 flex-col">
-                {content}
-            </div>
-            <style jsx>
-                {`
+    </>
+  ),
+  url = '/strategy'
+}) {
+  return (
+    <div className="wwd-item flex-col-hstart-vstart">
+      <a href={url}>
+        <div className="group-359" style={{ backgroundImage: `url(${bgImage})` }}>
+          <div className="group-175">
+            <p className="txt-639">{tag}</p>
+          </div>
+        </div>
+        <div className="group-2310 flex-col">
+          {content}
+        </div>
+      </a>
+      <style jsx>
+        {`
         /* Wwditem */
 
         p {
@@ -64,8 +68,8 @@ export default function WwdItem({
         
         .wwd-item {
           position: relative;
-          width: 531px;
-          height: 482.25px;
+          height: 500px;
+          width: 50%;
         }
         
         .group-359 {
@@ -108,7 +112,7 @@ export default function WwdItem({
         }
         
         `}
-            </style>
-        </div>
-    )
+      </style>
+    </div>
+  )
 }

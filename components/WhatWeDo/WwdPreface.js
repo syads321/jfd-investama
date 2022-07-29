@@ -27,9 +27,10 @@ export default function WwdPreface() {
       }
       
       .wwd-preface {
-        width: 985.5px;
+        max-width: 985.5px;
         height: 143.25px;
         margin-bottom: 45px;
+        overflow:hidden;
       }
       
       .group-1077 {
@@ -48,10 +49,10 @@ export default function WwdPreface() {
         font-family: Gilroy-Medium, sans-serif;
         font-weight: undefined;
         color: rgba(11, 43, 64, 1);
-        width: 945px;
+        // width: 945px;
         height: 103px;
         word-wrap: break-word;
-        width: 927px;
+        // width: 927px;
       }
       
       `}</style>

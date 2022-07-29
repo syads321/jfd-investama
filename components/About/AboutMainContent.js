@@ -195,8 +195,9 @@ export default function AboutMainContent() {
                 padding: 74px 110px 66px 224px;
                 box-sizing: border-box;
                 background-color: rgba(11, 43, 64, 1);
-                width: 1440px;
+                // width: 1440px;
                 height: 1179px;
+                overflow:hidden
             }
             
             .group-792 {
@@ -213,7 +214,7 @@ export default function AboutMainContent() {
                 font-family: Gilroy-Medium, sans-serif;
                 font-weight: undefined;
                 color: rgba(255, 255, 255, 1);
-                width: 657px;
+                // width: 657px;
                 height: 123px;
                 word-wrap: break-word;
                 margin-bottom: 38px;

@@ -1,8 +1,8 @@
-import Layout from '../../components/Layout'
-import Footer from '../../components/Footer'
-import Banner from '../../components/Banner'
-import InvesmentStrategy from '../../components/Joinvest/InvestmentStrategy'
-import Divestment from '../../components/Joinvest/Divestment'
+import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+import Banner from '../components/Banner'
+import InvesmentStrategy from '../components/Joinvest/InvestmentStrategy'
+import Divestment from '../components/Joinvest/Divestment'
 
 export default function Home() {
     return (

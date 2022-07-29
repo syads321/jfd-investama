@@ -4,8 +4,8 @@ import ContactForm from "./ContactForm"
 export default function ContactBody() {
   return (
     <div className="contact-body">
-      <div className="group-365 flex-row">
-        <div className="contact-office flex-col">
+      <div className="group-365 row">
+        <div className="contact-office col-xs-4">
           <div className="group-513 flex-row">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e90lmkv79dt-259%3A261?alt=media&token=9c52ae82-1554-4189-94bc-da8be7c16e13"
@@ -21,7 +21,7 @@ Office 88, Kota Casablanca, Kel. Menteng Dalam,
 Kec. Tebet, Jakarta Selatan, 12870.
           </p>
         </div>
-        <div className="contact-phone flex-col">
+        <div className="contact-phone col-xs-4">
           <p className="txt-224">Quick Contact</p>
           <div className="group-939 flex-row">
             <img
@@ -46,7 +46,7 @@ Kec. Tebet, Jakarta Selatan, 12870.
             </div>
           </div>
         </div>
-        <div className="contact-form-wrapper flex-col">
+        <div className="contact-form-wrapper col-xs-3">
             <ContactForm/>
         </div>
       </div>

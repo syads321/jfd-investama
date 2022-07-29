@@ -5,39 +5,38 @@ export default function MainMenu() {
     return (
         <div className="container">
             <div className="group-29">
-                <div className="group-9109 flex-row-vend">
+                <div className="group-9109 row">
                     <img
                         src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/8z43kh6suh6-5%3A82?alt=media&token=259fb345-6316-4295-b86f-2e9b28725c18"
                         alt="Not Found"
-                        className="asset-11"
+                        className="asset-11 pull-left"
                     />
-                    <div className="group-22 flex-row">
+                    <div className="group-22 pull-left">
                         <Link href="/">
                             <a className="txt-829">Home</a>
-                         </Link>
-                         <Link href="/about">
-                         <a className="txt-829">Who We Are</a>
-                         </Link>
+                        </Link>
+                        <Link href="/about">
+                            <a className="txt-829">Who We Are</a>
+                        </Link>
                         <Link href="/whatwedo">
-                        <a className="txt-942">What We Do</a>
+                            <a className="txt-942">What We Do</a>
                         </Link>
                         <Link href="/news">
                             <a className="txt-599">News</a>
                         </Link>
                         <Link href="/contact">
-                        <a className="txt-786">Contact</a>
+                            <a className="txt-786">Contact</a>
                         </Link>
-                        
-                        
-                        
                     </div>
-                    <div className="group-2 flex-row">
-                        <p className="txt-939">Search</p>
-                        <img
-                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/8z43kh6suh6-5%3A42?alt=media&token=38c95354-622e-4824-a733-3313ac2c90f6"
-                            alt="Not Found"
-                            className="ant-design-search-outlined"
-                        />
+                    <div className="group-2 pull-right">
+                        <div className="col-xs-12">
+                            <p className="txt-939">Search</p>
+                            <img
+                                src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/8z43kh6suh6-5%3A42?alt=media&token=38c95354-622e-4824-a733-3313ac2c90f6"
+                                alt="Not Found"
+                                className="ant-design-search-outlined"
+                            />
+                        </div>
                     </div>
                 </div>
                 <style jsx>{`
@@ -50,20 +49,17 @@ export default function MainMenu() {
         text-decoration: none;
     }
     .flex-row-vend {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+
     }
 
     .flex-row {
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
     }
 
     .group-29 {
     padding: 0px 0px 0.25px 0px;
     box-sizing: border-box;
-    width: 1080px;
     height: 65.25px;
     }
 
@@ -74,7 +70,6 @@ export default function MainMenu() {
 
     .asset-11 {
     width: 109.5px;
-    margin-right: 72px;
     height: 100%;
     margin-top: 13px;
     }
@@ -83,6 +78,8 @@ export default function MainMenu() {
     margin-right: 72px;
     box-sizing: border-box;
     height: 33px;
+    margin-left: 72px;
+    margin-top: 44px;
     }
 
     .txt-829 {
@@ -125,6 +122,7 @@ export default function MainMenu() {
     box-sizing: border-box;
     background-color: rgba(217, 217, 217, 0.3);
     height: fit-content;
+    margin-top: 32px;
     }
 
     .txt-939 {
@@ -139,6 +137,9 @@ export default function MainMenu() {
     .ant-design-search-outlined {
     width: 27.75px;
     height: 27.75px;
+    position:absolute;
+    top: 0px;
+    right: 0px;
     }
 
         `}

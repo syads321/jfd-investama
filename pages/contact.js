@@ -32,7 +32,7 @@ export default function Home() {
                 }
                 
                 .contact-head {
-                  width: 1078.5px;
+                  max-width: 1078.5px;
                   height: 127px;
                   margin-top: -39px;
                 }

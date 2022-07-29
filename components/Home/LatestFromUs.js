@@ -1,113 +1,121 @@
 import React from "react"
 
-export default function LatestFromUs({title = true}) {
-    return (
-        <div className="container">
-            <div className="latest-from-us">
-                <div className="group-197 flex-col-hcenter">
-                    {title ? <p className="txt-121">Latest from Us</p> : null}
-                    <div className="group-8110 flex-row">
-                        <div>
-                            <div className="group-23 flex-col-hstart-vstart">
-                                <div className="latest-1 flex-col-hcenter">
-                                    <img
-                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ji42aoyab3o-I211%3A584%3B20%3A945?alt=media&token=4cdd5339-a4c7-4752-9992-e12149e4a17c"
-                                        alt="Not Found"
-                                        className="mask-group"
-                                    />
-                                    <div className="flex-col">
-                                        <p className="txt-645 flex-hend">NEWS</p>
-                                        <p className="txt-761 flex-hend">
-                                            By Joinvest . June 14, 2020 . 0 Comments
-                                        </p>
-                                        <p className="txt-738 flex-hend">Lorem Ipsum Dolor Sit Amet</p>
-                                        <p className="txt-402 flex-hend">Read More </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="group-23 flex-col-hstart-vstart">
-                                <div className="latest-1 flex-col-hcenter">
-                                    <img
-                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ji42aoyab3o-I211%3A584%3B20%3A945?alt=media&token=4cdd5339-a4c7-4752-9992-e12149e4a17c"
-                                        alt="Not Found"
-                                        className="mask-group"
-                                    />
-                                    <div className="flex-col">
-                                        <p className="txt-645 flex-hend">NEWS</p>
-                                        <p className="txt-761 flex-hend">
-                                            By Joinvest . June 14, 2020 . 0 Comments
-                                        </p>
-                                        <p className="txt-738 flex-hend">Lorem Ipsum Dolor Sit Amet</p>
-                                        <p className="txt-402 flex-hend">Read More </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div className="group-23 flex-col-hstart-vstart">
-                                <div className="latest-1 flex-col-hcenter">
-                                    <img
-                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ji42aoyab3o-I211%3A584%3B20%3A945?alt=media&token=4cdd5339-a4c7-4752-9992-e12149e4a17c"
-                                        alt="Not Found"
-                                        className="mask-group"
-                                    />
-                                    <div className="flex-col">
-                                        <p className="txt-645 flex-hend">NEWS</p>
-                                        <p className="txt-761 flex-hend">
-                                            By Joinvest . June 14, 2020 . 0 Comments
-                                        </p>
-                                        <p className="txt-738 flex-hend">Lorem Ipsum Dolor Sit Amet</p>
-                                        <p className="txt-402 flex-hend">Read More </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+export default function LatestFromUs({ title = true }) {
+  return (
+    <div className="container">
+      <div className="latest-from-us">
+        <div className="group-197 flex-col-hcenter">
+          {title ? <p className="txt-121 text-center">Latest from Us</p> : null}
+          <div className="group-8110 row">
+            <div className="col-xs-4">
+              <div className="group-23 flex-col-hstart-vstart">
+                <div className="latest-1 flex-col-hcenter">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ji42aoyab3o-I211%3A584%3B20%3A945?alt=media&token=4cdd5339-a4c7-4752-9992-e12149e4a17c"
+                    alt="Not Found"
+                    className="mask-group"
+                  />
+                  <div className="flex-col">
+                    <div className="col-xs-12">
+                      <p className="txt-645 flex-hend">NEWS</p>
+                      <p className="txt-761 flex-hend">
+                        By Joinvest . June 14, 2020 . 0 Comments
+                      </p>
+                      <p className="txt-738 flex-hend">Lorem Ipsum Dolor Sit Amet</p>
+                      <p className="txt-402 flex-hend">Read More </p>
                     </div>
+
+                  </div>
                 </div>
+              </div>
             </div>
-            <style jsx>{`
+            <div className="col-xs-4">
+              <div className="group-23 flex-col-hstart-vstart">
+                <div className="latest-1 flex-col-hcenter">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ji42aoyab3o-I211%3A584%3B20%3A945?alt=media&token=4cdd5339-a4c7-4752-9992-e12149e4a17c"
+                    alt="Not Found"
+                    className="mask-group"
+                  />
+                  <div className="flex-col">
+                    <div className="col-xs-12">
+                      <p className="txt-645 flex-hend">NEWS</p>
+                      <p className="txt-761 flex-hend">
+                        By Joinvest . June 14, 2020 . 0 Comments
+                      </p>
+                      <p className="txt-738 flex-hend">Lorem Ipsum Dolor Sit Amet</p>
+                      <p className="txt-402 flex-hend">Read More </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xs-4">
+              <div className="group-23 flex-col-hstart-vstart">
+                <div className="latest-1 flex-col-hcenter">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ji42aoyab3o-I211%3A584%3B20%3A945?alt=media&token=4cdd5339-a4c7-4752-9992-e12149e4a17c"
+                    alt="Not Found"
+                    className="mask-group"
+                  />
+                  <div className="flex-col">
+                    <div className="col-xs-12">
+                      <p className="txt-645 flex-hend">NEWS</p>
+                      <p className="txt-761 flex-hend">
+                        By Joinvest . June 14, 2020 . 0 Comments
+                      </p>
+                      <p className="txt-738 flex-hend">Lorem Ipsum Dolor Sit Amet</p>
+                      <p className="txt-402 flex-hend">Read More </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style jsx>{`
         /* Latestfromus */
 
         p {
           margin: 0;
         }
         
-        .flex-col-hcenter {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+        // .flex-col-hcenter {
+        //   display: flex;
+        //   flex-direction: column;
+        //   align-items: center;
+        // }
         
-        .flex-row {
-          display: flex;
-          flex-direction: row;
-        }
+        // .flex-row {
+        //   display: flex;
+        //   flex-direction: row;
+        // }
         
-        .flex-col-hstart-vstart {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-        }
+        // .flex-col-hstart-vstart {
+        //   display: flex;
+        //   flex-direction: column;
+        //   justify-content: flex-start;
+        //   align-items: flex-start;
+        // }
         
-        .flex-col {
-          display: flex;
-          flex-direction: column;
-        }
+        // .flex-col {
+        //   display: flex;
+        //   flex-direction: column;
+        // }
         
-        .flex-hend {
-          justify-content: flex-end;
-        }
+        // .flex-hend {
+        //   justify-content: flex-end;
+        // }
         
         .latest-from-us {
           padding: 0px 0.5px 0px 0px;
           box-sizing: border-box;
-          width: 1081.5px;
-          height: 545.75px;
+          // width: 1081.5px;
           margin-top: 78px;
           margin-bottom: 128px;
+          padding-top: 213px;
         }
         
         .group-197 {
@@ -121,6 +129,7 @@ export default function LatestFromUs({title = true}) {
           color: rgba(0, 0, 0, 1);
           word-wrap: break-word;
           margin-bottom: 43px;
+          border-bottom: 1px solid #DDD;
         }
         
         .group-8110 {
@@ -147,11 +156,12 @@ export default function LatestFromUs({title = true}) {
           background-color: rgba(255, 255, 255, 1);
           border: 1px solid rgba(0, 0, 0, 0.1);
           width: 100%;
+          height: 475px;
         }
         
         .mask-group {
-          width: 351.09px;
-          height: 221.31px;
+          width: 100%;
+          // height: 221.31px;
           margin-bottom: 25px;
         }
         
@@ -205,6 +215,6 @@ export default function LatestFromUs({title = true}) {
         }
         
         `}</style>
-        </div>
-    )
+    </div>
+  )
 }

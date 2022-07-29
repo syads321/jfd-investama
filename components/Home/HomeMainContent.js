@@ -2,45 +2,57 @@ import React from "react"
 import Link from 'next/link'
 
 export default function HomeMainContent() {
-  return (
-    <div className="container">
-        <div className="home-main-content">
-        <p className="txt-567">About Our Company</p>
-        <div className="vector-1"></div>
-        <div className="group-732 flex-row">
-            <div className="group-944 flex-col">
-            <img
-                src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/a0d90uc2cyj-5%3A125?alt=media&token=1897d701-1c5e-448e-bebd-c54b119f6a04"
-                alt="Not Found"
-                className="asset-31"
-            />
-            <p className="txt-885 flex-hcenter">Growing. Together.</p>
-            </div>
-            <div className="group-227 flex-col">
-            <p className="txt-311 flex-hend">
-                JFD Investama was founded in 2022 and pursues an ambition of
-                becoming top of mind choice regarding the investment company in
-                Indonesia. Our focus is to find the wonderful yet undervalue company
-                in the financial market. Furthermore, JFD Investama believes that
-                GCG and unity must become part of our identity Which is rooted on
-                our company philosophy of “Growing Together”. JFD able to deliver
-                their philosophy by putting forwards energy to giving back to
-                society, that encourages educational, financial and social growth.
-            </p>
-            <Link href="/about"><p className="txt-173 flex-hend">More About Us </p></Link>
-            </div>
-        </div>
-        <style jsx>{`
+    return (
+        <div className="container">
+            <div className="home-main-content row">
+                <div className="col-xs-12 text-center">
+                    <p className="txt-567">About Our Company</p>
+                    <div className="vector-1"></div>
+                </div>
+                
+                <div className="col-xs-4">
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/a0d90uc2cyj-5%3A125?alt=media&token=1897d701-1c5e-448e-bebd-c54b119f6a04"
+                        alt="Not Found"
+                        className="asset-31"
+                    />
+                    <p className="txt-885 flex-hcenter">Growing. Together.</p>
+                </div>
+                <div className="col-xs-8">
+                    <p className="txt-311 flex-hend">
+                        JFD Investama was founded in 2022 and pursues an ambition of
+                        becoming top of mind choice regarding the investment company in
+                        Indonesia. Our focus is to find the wonderful yet undervalue company
+                        in the financial market. Furthermore, JFD Investama believes that
+                        GCG and unity must become part of our identity Which is rooted on
+                        our company philosophy of “Growing Together”. JFD able to deliver
+                        their philosophy by putting forwards energy to giving back to
+                        society, that encourages educational, financial and social growth.
+                    </p>
+                    <Link href="/about"><p className="txt-173 flex-hend">More About Us </p></Link>
+                </div>
+
+                
+                <div className="group-732 flex-row">
+                    <div className="group-944 flex-col">
+
+                        
+                    </div>
+                    <div className="group-227 flex-col">
+
+                    </div>
+                </div>
+                <style jsx>{`
             /* Homemaincontent */
 
             p {
             margin: 0;
             }
             
-            .flex-row {
-            display: flex;
-            flex-direction: row;
-            }
+            // .flex-row {
+            // display: flex;
+            // flex-direction: row;
+            // }
             
             .flex-col {
             display: flex;
@@ -57,30 +69,30 @@ export default function HomeMainContent() {
             
             .home-main-content {
             position: relative;
-            width: 1152.75px;
-            height: 385.5px;
-            margin-top: 82px;
+            // width: 1152.75px;
+            // height: 385.5px;
+            // margin-top: 82px;
+            padding-top: 79px;
             }
             
             .txt-567 {
-            position: absolute;
-            top: 0px;
-            left: 395px;
+            // position: absolute;
+            // top: 0px;
+            // left: 395px;
             font-size: 30px;
             font-family: Gilroy-Black, sans-serif;
             font-weight: undefined;
             color: rgba(0, 0, 0, 1);
-            width: 287px;
             height: 38px;
             word-wrap: break-word;
             }
             
             .group-732 {
-            position: absolute;
-            top: 88px;
-            none: 0px;
-            width: 1154px;
-            height: 298px;
+            // position: absolute;
+            // top: 88px;
+            // none: 0px;
+            // width: 1154px;
+            // height: 298px;
             }
             
             .group-944 {
@@ -93,6 +105,7 @@ export default function HomeMainContent() {
             width: 319.5px;
             height: 190.5px;
             margin-bottom: 37px;
+            margin-top: 63px;
             }
             
             .txt-885 {
@@ -117,10 +130,11 @@ export default function HomeMainContent() {
             line-height: 136%;
             color: rgba(106, 106, 106, 1);
             text-align: left;
-            width: 767px;
+            // width: 767px;
             height: 235px;
             word-wrap: break-word;
             margin-bottom: 35px;
+            margin-top: 56px;
             }
             
             .txt-173 {
@@ -142,7 +156,7 @@ export default function HomeMainContent() {
             }
             
         `}</style>
+            </div>
         </div>
-    </div>
-  )
+    )
 }

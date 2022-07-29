@@ -28,9 +28,6 @@ export default function Home() {
           }
           
           .txt-406 {
-            position: absolute;
-            top: 0px;
-            left: 1px;
             font-size: 72px;
             font-family: Gilroy-Black, sans-serif;
             font-weight: undefined;

@@ -1,10 +1,10 @@
-import Layout from '../../components/Layout'
-import Footer from '../../components/Footer'
-import Banner from '../../components/Banner'
-import InvesmentStrategy from '../../components/Joinvest/InvestmentStrategy'
-import Divestment from '../../components/Joinvest/Divestment'
-import DealSourcing from '../../components/Joinvest/DealSourcing'
-import Portfolio from '../../components/Joinvest/Portfolio'
+import Layout from '../components/Layout'
+import Footer from '../components/Footer'
+import Banner from '../components/Banner'
+import InvesmentStrategy from '../components/Joinvest/InvestmentStrategy'
+import Divestment from '../components/Joinvest/Divestment'
+import DealSourcing from '../components/Joinvest/DealSourcing'
+import Portfolio from '../components/Joinvest/Portfolio'
 
 export default function Home() {
   return (

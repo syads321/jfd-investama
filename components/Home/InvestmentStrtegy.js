@@ -3,39 +3,43 @@ export default function InvestmentStrategy() {
   return (
     <div>
       <div className="investment-strategy">
-        <div className="mid-content">
-          <div className="group-796">
-            <p className="txt-509">
-              Our investment strategy defines our persona and embodies our next
-              step in investing
-            </p>
-          </div>
-          <img
+        <div className="group-796 container">
+          <p className="txt-509">
+            Our investment strategy defines our persona and embodies our next
+            step in investing
+          </p>
+        </div>
+        <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ac74ymr4q1-244%3A187?alt=media&token=e10133e0-0609-4721-bd21-20b9e9685d21"
             alt="Not Found"
             className="vector"
           />
-        </div>
-        <div className="jo-invest">
-          <div className="group-276 flex-col">
-            <p className="txt-966">Our Investment Strategy</p>
-            <p className="txt-757">
-              JFD Investama invests in high growth and innovative companies in
-              Indonesia.
-            </p>
+        <div className="container">
+          <div className="row">
+            <div className="pull-left col-xs-6 jo-invest">
+              <div className="group-276 flex-col">
+                <p className="txt-966">Our Investment Strategy</p>
+                <p className="txt-757">
+                  JFD Investama invests in high growth and innovative companies in
+                  Indonesia.
+                </p>
+              </div>
+              <p className="txt-1057 flex-hend">More About Us </p>
+            </div>
+            <div className="pull-right col-xs-6 jo-invest">
+              <div className="group-276 flex-col">
+                <p className="txt-966">Joinvest</p>
+                <p className="txt-757">
+                  Focusing on growing the community and quality of content in the
+                  social media.
+                </p>
+              </div>
+              <p className="txt-1057 flex-hend">More About Us </p>
+            </div>
           </div>
-          <p className="txt-1057 flex-hend">More About Us </p>
         </div>
-        <div className="our-invest">
-          <div className="group-124 flex-col">
-            <p className="txt-966">Joinvest</p>
-            <p className="txt-757">
-              Focusing on growing the community and quality of content in the
-              social media.
-            </p>
-          </div>
-          <p className="txt-291 flex-hend">More About Us </p>
-        </div>
+
+
       </div>
       <style jsx>{`
       /* Investmentstrategy */
@@ -57,10 +61,14 @@ export default function InvestmentStrategy() {
         position: relative;
         padding: 0px 0px 0.38px 0px;
         box-sizing: border-box;
-        width: 1493.93px;
-        height: 618.38px;
-        margin-top: -22px;
-        pointer-events:none;
+        // width: 1493.93px;
+        // height: 618.38px;
+        // margin-top: -22px;
+        // pointer-events:none;
+        background-color: rgba(11, 43, 64, 1);
+        margin-top: 91px;
+        padding-top: 45px;
+        height: 284px;
       }
       
       .mid-content {
@@ -72,14 +80,15 @@ export default function InvestmentStrategy() {
       }
       
       .group-796 {
-        position: absolute;
-        top: 120px;
+        // position: absolute;
+        // top: 120px;
         none: 0px;
-        padding: 87px 632px 92px 182px;
+        // padding: 87px 632px 92px 182px;
         box-sizing: border-box;
-        background-color: rgba(11, 43, 64, 1);
-        width: 1442px;
-        height: 282px;
+        // width: 1442px;
+        // height: 282px;
+        // width:100%
+        border-top: 1px solid #FFF;
       }
       
       .txt-509 {
@@ -87,25 +96,24 @@ export default function InvestmentStrategy() {
         font-family: Gilroy-Medium, sans-serif;
         font-weight: undefined;
         color: rgba(255, 255, 255, 1);
-        width: 628px;
+        // width: 628px;
         height: 103px;
         word-wrap: break-word;
+        margin-top: 38px;
+        width: 556px;
       }
       
       .vector {
         position: absolute;
         top: 0%;
         bottom: 21.47%;
-        left: 78.85%;
-        right: 0.02%;
-        width: 315.68px;
-        height: 315.67px;
+        right: 0%;
       }
       
       .jo-invest {
-        position: absolute;
-        top: 324px;
-        left: 197px;
+        // position: absolute;
+        // top: 324px;
+        // left: 197px;
         background: linear-gradient(
             0deg,
             rgba(53, 157, 158, 1),
@@ -151,9 +159,9 @@ export default function InvestmentStrategy() {
       }
       
       .our-invest {
-        position: absolute;
-        top: 324px;
-        left: 732px;
+        // position: absolute;
+        // top: 324px;
+        // left: 732px;
         background: linear-gradient(
             0deg,
             rgba(53, 157, 158, 1),
@@ -161,8 +169,8 @@ export default function InvestmentStrategy() {
           ),
           url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ac74ymr4q1-20%3A588?alt=media&token=7b3cc425-5a2c-4de4-808b-53b0717b4b03);
         background-size: 100% 100%;
-        width: 514.5px;
-        height: 294px;
+        // width: 514.5px;
+        // height: 294px;
       }
       
       .group-124 {
@@ -194,20 +202,20 @@ export default function InvestmentStrategy() {
       }
       
       .txt-291 {
-        position: absolute;
-        top: 78.23%;
-        bottom: 12.59%;
-        left: 9.91%;
-        right: 57.24%;
+        // position: absolute;
+        // top: 78.23%;
+        // bottom: 12.59%;
+        // left: 9.91%;
+        // right: 57.24%;
         font-size: 21px;
         font-family: Gilroy-Black, sans-serif;
         font-weight: undefined;
         color: rgba(255, 255, 255, 1);
         text-align: right;
-        width: 169px;
-        height: 27px;
+        // width: 169px;
+        // height: 27px;
         word-wrap: break-word;
-        left: 26px;
+        // left: 26px;
       }      
       `}</style>
     </div>

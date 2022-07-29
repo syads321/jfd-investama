@@ -123,7 +123,7 @@ Kec. Tebet, Jakarta Selatan, 12870.
                 -webkit-box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 box-sizing: border-box;
-                width: 1493.48px;
+                width: 100%;
                 height: 449.28px;
                 overflow: hidden;
             }

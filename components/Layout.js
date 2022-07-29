@@ -11,6 +11,7 @@ export default function Layout({children}) {
       <Head>
         <title>JFD Investama</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="./css/bootstrap.min.css" rel="stylesheet"></link>
       </Head>
         <main>
             {children}
@@ -41,8 +42,11 @@ export default function Layout({children}) {
         margin:0px;
       }
       .container {
-        max-width: 1077px;
+        // max-width: 1077px;
         margin: 0px auto;
+      }
+      .text-center {
+        text-align: center;
       }
       `}</style>
     </div>

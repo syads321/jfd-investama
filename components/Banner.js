@@ -7,7 +7,7 @@ export default function Banner({children, height = 809}) {
                 <MainMenu/>
                 <div className="container">
                     <div className="group-28">
-                        <div className="group-210 flex-col">
+                        <div className="group-210">
                             {children}
                         </div>
                     </div>
@@ -32,7 +32,6 @@ export default function Banner({children, height = 809}) {
        }
        
        .group-28 {
-         width: 855px;
          height: 354px;
          margin-top: 208px;
        }

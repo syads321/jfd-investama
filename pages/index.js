@@ -15,8 +15,8 @@ export default function Home() {
           We focus on finding the wonderful yet undervalue company in the
           financial market.
         </p>
-        <div className="group-3 flex-col-hstart-vstart">
-          <div className="learn-more flex-col-hstart-vstart">
+        <div className="group-3">
+          <div className="learn-more">
           <Link href="/about"><p className="txt-954">Learn More</p></Link>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
           font-family: Gilroy-Black, sans-serif;
           font-weight: undefined;
           color: rgba(255, 255, 255, 1);
-          width: 856px;
+          // width: 856px;
           height: 106px;
           word-wrap: break-word;
           margin-bottom: 20px;
@@ -43,7 +43,7 @@ export default function Home() {
           font-family: Gilroy-Medium, sans-serif;
           font-weight: undefined;
           color: rgba(255, 255, 255, 1);
-          width: 765px;
+          // width: 765px;
           height: 89px;
           word-wrap: break-word;
           margin-bottom: 71px;

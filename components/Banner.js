@@ -1,18 +1,19 @@
 import React from "react"
 import MainMenu from "./MainMenu"
-export default function Banner({children, height = 809}) {
-    return (
-        <div className="bg-image" style={{ background: 'url(./images/banner.jpg)', height:height }}>
-            <>
-                <MainMenu/>
-                <div className="container">
-                    <div className="group-28">
-                        <div className="group-210">
-                            {children}
-                        </div>
-                    </div>
-                </div>
-                <style jsx>{`
+export default function Banner({ children, height = 809 , multiplier = 49}) {
+  return (
+    <div style={{background: '#0b2b40', height: height - multiplier}}>
+      <div className="bg-image" style={{ background: 'url(./images/banner.jpg) right no-repeat', height: height }}>
+        <>
+          <MainMenu />
+          <div className="container">
+            <div className="group-28">
+              <div className="group-210">
+                {children}
+              </div>
+            </div>
+          </div>
+          <style jsx>{`
        /* Group28 */
 
        p {
@@ -64,6 +65,7 @@ export default function Banner({children, height = 809}) {
        }
        
       `}</style></>
-        </div>
-    )
+      </div>
+    </div>
+  )
 }

@@ -7,10 +7,10 @@ import WwdItem from '../components/WhatWeDo/WwdItem'
 export default function Home() {
     return (
         <Layout>
-            <Banner height={461}>
+            <Banner height={461} multiplier={0}>
                 <div className="breadcrumbs">
                     <p className="txt-862">What We Do</p>
-                    <p className="txt-553">Home >> What We Do</p>
+                    <p className="txt-553">Home > What We Do</p>
                 </div>
                 <div className='bg-wwd' style={{ backgroundImage: 'url(./images/what-wedo-bg.png)', height: 318, width: 251 }}></div>
             </Banner>
@@ -27,6 +27,7 @@ export default function Home() {
                         content={(
                             <>
                                 <p className="txt-827">Joinvest</p>
+                                <p className="txt-113"> > GO THROUGH</p>
                                 <style jsx>{`
                                     .txt-827 {
                                         font-size: 30px;
@@ -39,6 +40,14 @@ export default function Home() {
                                         margin-bottom: 18px;
                                         margin-top: 0px;
                                     }
+                                    .txt-113 {
+                                        font-size: 18px;
+                                        font-family: Gilroy-Medium, sans-serif;
+                                        font-weight: undefined;
+                                        color: rgba(0, 0, 0, 1);
+                                        word-wrap: break-word;
+                                        margin-top: 0px;
+                                      }
                                     
                                 `}</style>
                             </>
@@ -77,8 +86,8 @@ export default function Home() {
             }
             .txt-862 {
               position: absolute;
-              top: -110px;
-              left: 1px;
+              top: -142px;
+              left: -20px;
               font-size: 72px;
               font-family: Gilroy-Black, sans-serif;
               font-weight: undefined;
@@ -90,8 +99,8 @@ export default function Home() {
             
             .txt-553 {
               position: absolute;
-              top: 29px;
-              left: 0px;
+              top: 0px;
+              left: -23px;
               font-size: 24px;
               font-family: Gilroy-Medium, sans-serif;
               font-weight: undefined;

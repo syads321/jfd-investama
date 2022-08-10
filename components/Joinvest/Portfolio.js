@@ -11,34 +11,34 @@ export default function Portfolio() {
                             <img
                                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wrqr38u6n6-163%3A243?alt=media&token=e4959215-8ae8-40b6-9799-d31d357aba0b"
                                 alt="Not Found"
-                                className="pgn-energy-for-life"
+                                className="pgn-energy-for-life tt-logo"
                             />
                             <img
                                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wrqr38u6n6-163%3A244?alt=media&token=57126b08-5774-42fa-bac3-fe4fafe31594"
                                 alt="Not Found"
-                                className="_-1280px-bank-_bri-_logo"
+                                className="_-1280px-bank-_bri-_logo tt-logo"
                             />
                             <img
                                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wrqr38u6n6-163%3A245?alt=media&token=982f7812-9576-430b-b64b-283f7886ab86"
                                 alt="Not Found"
-                                className="indah-_kiat-800x-178"
+                                className="indah-_kiat-800x-178 tt-logo"
                             />
                         </div>
                         <div className="group-178 flex-row">
                             <img
                                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wrqr38u6n6-163%3A246?alt=media&token=ac45f47e-18ac-4649-91e9-b437608b10fc"
                                 alt="Not Found"
-                                className="logo-antam-600x-203"
+                                className="logo-antam-600x-203 tt-logo"
                             />
                             <img
                                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wrqr38u6n6-163%3A247?alt=media&token=1f36f178-30c8-489d-b04f-788682b1026b"
                                 alt="Not Found"
-                                className="our-logo"
+                                className="our-logo tt-logo"
                             />
                             <img
                                 src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/wrqr38u6n6-163%3A242?alt=media&token=a23614f1-c200-414f-9421-920bf890b4e4"
                                 alt="Not Found"
-                                className="logo-ptba"
+                                className="logo-ptba tt-logo"
                             />
                         </div>
                     </div>
@@ -138,6 +138,18 @@ export default function Portfolio() {
     .logo-ptba {
       width: 333.75px;
       height: 100%;
+    }
+    .group-588 img.tt-logo {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transition: all 0.5s ease;
+    }
+   
+    .group-588 img.tt-logo:hover {
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
     }
     
     `}</style>

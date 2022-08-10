@@ -56,7 +56,7 @@ export default function AboutContent() {
         background-color: rgba(255, 255, 255, 1);
         width: 100%;
         height: 592.5px;
-        margin-top: -373px;
+        margin-top: -292px;
         max-width: 1070px;
       }
       

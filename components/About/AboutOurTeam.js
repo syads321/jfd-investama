@@ -65,7 +65,7 @@ export default function AboutOurTeam() {
                         padding: 85px 89px 1px 25px;
                         box-sizing: border-box;
                         max-width: 1077px;
-                        height: 522px;
+                        height: 600px;
                         margin-bottom: 160px;
                         overflow: hidden;
                     }

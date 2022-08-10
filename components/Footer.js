@@ -1,7 +1,9 @@
 import React from "react"
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 export default function Footer() {
+    const router = useRouter();
     return (
         <div className="footer" style={{ background: `rgba(11,43,64,1) url('./images/footer-bg.png') no-repeat left center`}}>
             <div className="group-5410 flex-col">
@@ -67,32 +69,32 @@ Kec. Tebet, Jakarta Selatan, 12870.
                     <div className="footer-menu flex-col">
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/"><p className="txt-661">Home</p></Link>
+                            <Link href="/"><p className={`txt-661 ${router.pathname == "/" ? "active" : ""}`}>Home</p></Link>
                         </div>
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/about"><p className="txt-661">Who We Are</p></Link>
+                            <Link href="/about"><p className={`txt-661 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</p></Link>
                         </div>
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/whatwedo"><p className="txt-661">What We Do</p></Link>
+                            <Link href="/whatwedo"><p className={`txt-661 ${["/whatwedo", "/joinvest", "/strategy"].indexOf(router.pathname) !== -1 ? "active" : ""}`}>What We Do</p></Link>
                         </div>
                         <div className="group-1110 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/news"><p className="txt-661">News</p></Link>
+                            <Link href="/news"><p className={`txt-661 ${router.pathname == "/news" ? "active" : ""}`}>News</p></Link>
                         </div>
                         <div className="flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/contact"><p className="txt-661">Contact</p></Link>
+                            <Link href="/contact"><p className={`txt-661 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</p></Link>
                         </div>
                     </div>
-                    <div className="contact-form flex-col">
+                    {/* <div className="contact-form flex-col">
                         <p className="txt-320">Contact Us</p>
                         <div className="group-362 flex-row">
                             <p className="txt-659">Write your email..</p>
                             <p className="txt-661">OK</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <img
@@ -105,6 +107,9 @@ Kec. Tebet, Jakarta Selatan, 12870.
 
             p {
               margin: 0;
+            }
+            p.active {
+              color: hsl(154deg 31% 52% / 86%) !important;
             }
             
             .flex-col {

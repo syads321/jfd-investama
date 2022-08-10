@@ -23,7 +23,7 @@ export default function Home() {
       </Banner>
       <HomeMainContent />
       <InvestmentStrategy />
-      <LatestFromUs />
+      {/* <LatestFromUs /> */}
       <Footer />
       <style>{`
          .txt-823 {

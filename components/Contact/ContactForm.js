@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <div className="contact-form-body">
       <div className="flex-col">
-        <p className="txt-228">SEND YOUR MESSAGES</p>
+        {/* <p className="txt-228">SEND YOUR MESSAGES</p>
         <p className="txt-846">Don’t hesitate to message us.</p>
         <div className="name">
           <p className="txt-1092">Name*</p>
@@ -23,7 +23,7 @@ export default function ContactForm() {
         </div>
         <div className="send-button">
           <p className="txt-675">SUBMIT</p>
-        </div>
+        </div> */}
       </div>
       <style>{`
       /* Contactform */
@@ -41,7 +41,7 @@ export default function ContactForm() {
         padding: 47px 55px 24.75px 41px;
         box-sizing: border-box;
         border-radius: 15px;
-        background-color: rgba(255, 255, 255, 1);
+        // background-color: rgba(255, 255, 255, 1);
         width: 351px;
         height: 618.75px;
         margin-top: -258px;

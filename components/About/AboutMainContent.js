@@ -1,162 +1,160 @@
 import React from "react"
 
 export default function AboutMainContent() {
-  return (
-    <div>
-        <div className="about-main-content">
-            <div className="group-792 flex-row">
-                <div className="wothines flex-col">
-                <div className="group-608 flex-row">
-                    <div className="mission flex-row-vcenter">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/m0ygrydfng-253%3A176?alt=media&token=88791669-3869-4586-8491-3d81e1c2d7c8"
-                        alt="Not Found"
-                        className="vector"
-                    />
-                    <p className="txt-906">Our Vision</p>
-                    </div>
-                    <div>
-                        <p className="txt-486">
-                        Our mission for JFD Investama is described as below:
-                        </p>
-                        <p className="txt-486">
-                        Our mission for JFD Investama is described as below: Becoming a
-                        world-class investment company that excels on finding the
-                        wonderful company in the stock market with the value of growing
-                        together to create a value for our stakeholders and the nation
-                        </p>
+    return (
+        <div>
+            <div className="about-main-content">
+                <div className=" container">
+                    <div className="group-792 container flex-row">
+                        <div className="wothines flex-col">
+                            <div className="group-608 flex-row">
+                                <div className="mission flex-row-vcenter">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/m0ygrydfng-253%3A176?alt=media&token=88791669-3869-4586-8491-3d81e1c2d7c8"
+                                        alt="Not Found"
+                                        className="vector"
+                                    />
+                                    <p className="txt-906">Our Vision</p>
+                                </div>
+                                <div>
+                                    <p className="txt-486">
+                                        Our mission for JFD Investama is described as below:
+                                    </p>
+                                    <p className="txt-486" style={{marginTop : 14}}>
+                                        To become the first choice for Indonesian young generations investors to participate the dynamic growth in the investing market
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="group-608 flex-row">
+                                <div className="mission flex-row-vcenter" style={{paddingTop: 10}}>
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A177?alt=media&token=0f01d118-c794-48a8-9060-52285f157dda"
+                                        alt="Not Found"
+                                        className="vector"
+                                    />
+                                    <p className="txt-906">Our Mission</p>
+                                </div>
+                                <div style={{marginTop : 15}}>
+                                    <p className="txt-486">
+                                        Our mission for JFD Investama is described as below:
+                                    </p>
+                                    <p className="txt-486" style={{marginTop : 14}}>
+                                        Becoming a world-class investment company that excels on finding the wonderful company in the stock market with the value of growing together to create a value for our stakeholders and the nation
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="group-950 flex-row-vcenter">
+                                <div className="core flex-row-vcenter">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A179?alt=media&token=be37e971-ada5-4419-abb8-82a081fd83a5"
+                                        alt="Not Found"
+                                        className="vector-1"
+                                    />
+                                    <p className="txt-906">Core Values</p>
+                                </div>
+                                <div className="unity flex-col-hcenter">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A183?alt=media&token=1c6185be-cefd-40b7-a699-5342bb6e6c17"
+                                        alt="Not Found"
+                                        className="vector-2"
+                                    />
+                                    <p className="txt-652 flex-hcenter">Unity</p>
+                                </div>
+                                <div className="growth flex-col">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A185?alt=media&token=da96634f-0904-44de-ab69-886ef75feb0b"
+                                        alt="Not Found"
+                                        className="vector-3"
+                                    />
+                                    <p className="txt-652 flex-hcenter">Growth</p>
+                                </div>
+                                <div className="preseverance flex-col-hcenter">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A187?alt=media&token=f8d15164-679d-44dd-8649-8a0ffca96c88"
+                                        alt="Not Found"
+                                        className="vector-4"
+                                    />
+                                    <p className="txt-652 flex-hcenter">Perseverance</p>
+                                </div>
+                                <div className="wothines flex-col">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A189?alt=media&token=5d3f1083-6db2-4900-ae2b-237a9790cd5a"
+                                        alt="Not Found"
+                                        className="vector-5"
+                                    />
+                                    <p className="txt-652 flex-hcenter">Worthiness</p>
+                                </div>
+                            </div>
+                            <p className="txt-770">Our Logo</p>
+                            <div className="group-792 flex-row">
+                                <div className="group-518 flex-col">
+                                    <div className="logo flex-col">
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-22%3A338?alt=media&token=eda9a695-3336-4feb-80d4-193ffff39904"
+                                            alt="Not Found"
+                                            className="asset-13"
+                                        />
+                                        <p className="txt-221">Growing. Together.</p>
+                                    </div>
+                                    <p className="txt-376">
+                                        JFD Investama Logo consist of 5 visual graphics that represent
+                                        our goals and vision. The graphical logo represents of
+                                        simplicity that is wrapped in multi-interpretational element.
+                                    </p>
+                                </div>
+                                <div className="group-6310 flex-col-hcenter">
+                                    <div className="education">
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A192?alt=media&token=cdf9162c-bc51-425f-a83b-1a80b6ac669f"
+                                            alt="Not Found"
+                                            className="vector-6"
+                                        />
+                                        <p className="txt-652 flex-hcenter">
+                                            (Education, Social, Financial) Goals
+                                        </p>
+                                    </div>
+                                    <div className="wothines flex-col">
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-163%3A200?alt=media&token=470cf081-e8d8-493d-b601-0a78191189bc"
+                                            alt="Not Found"
+                                            className="layer-2"
+                                        />
+                                        <p className="txt-652 flex-hcenter">Growth</p>
+                                    </div>
+                                </div>
+                                <div className="group-644 flex-col">
+                                    <div className="unity-1 flex-col">
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A194?alt=media&token=04ce3142-120d-45a6-82c4-5cc5c5afd231"
+                                            alt="Not Found"
+                                            className="vector-7"
+                                        />
+                                        <p className="txt-652 flex-hcenter">Unity</p>
+                                    </div>
+                                    <div className="people flex-col-hcenter">
+                                        <img
+                                            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-163%3A221?alt=media&token=54109649-3a20-4269-891e-8a3191fb36b7"
+                                            alt="Not Found"
+                                            className="layer-21"
+                                        />
+                                        <p className="txt-652 flex-hcenter">People</p>
+                                    </div>
+                                </div>
+                                <div className="people flex-col-hcenter">
+                                    <img
+                                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A197?alt=media&token=46b7b053-6e86-42a6-a5a2-53793f0b3a24"
+                                        alt="Not Found"
+                                        className="vector-8"
+                                    />
+                                    <p className="txt-652 flex-hcenter">Community</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div className="group-608 flex-row">
-                    <div className="mission flex-row-vcenter">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A177?alt=media&token=0f01d118-c794-48a8-9060-52285f157dda"
-                        alt="Not Found"
-                        className="vector"
-                    />
-                    <p className="txt-906">Our Mission</p>
-                    </div>
-                    <div>
-                        <p className="txt-486">
-                        Our mission for JFD Investama is described as below:
-                        </p>
-                        <p className="txt-486">
-                        Our mission for JFD Investama is described as below: Becoming a
-                        world-class investment company that excels on finding the
-                        wonderful company in the stock market with the value of growing
-                        together to create a value for our stakeholders and the nation
-                        </p>
-                    </div>
-                </div>
-                <div className="group-950 flex-row-vcenter">
-                    <div className="core flex-row-vcenter">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A179?alt=media&token=be37e971-ada5-4419-abb8-82a081fd83a5"
-                        alt="Not Found"
-                        className="vector-1"
-                    />
-                    <p className="txt-906">Core Values</p>
-                    </div>
-                    <div className="unity flex-col-hcenter">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A183?alt=media&token=1c6185be-cefd-40b7-a699-5342bb6e6c17"
-                        alt="Not Found"
-                        className="vector-2"
-                    />
-                    <p className="txt-652 flex-hcenter">Unity</p>
-                    </div>
-                    <div className="growth flex-col">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A185?alt=media&token=da96634f-0904-44de-ab69-886ef75feb0b"
-                        alt="Not Found"
-                        className="vector-3"
-                    />
-                    <p className="txt-652 flex-hcenter">Growth</p>
-                    </div>
-                    <div className="preseverance flex-col-hcenter">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A187?alt=media&token=f8d15164-679d-44dd-8649-8a0ffca96c88"
-                        alt="Not Found"
-                        className="vector-4"
-                    />
-                    <p className="txt-652 flex-hcenter">Perseverance</p>
-                    </div>
-                    <div className="wothines flex-col">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A189?alt=media&token=5d3f1083-6db2-4900-ae2b-237a9790cd5a"
-                        alt="Not Found"
-                        className="vector-5"
-                    />
-                    <p className="txt-652 flex-hcenter">Worthiness</p>
-                    </div>
-                </div>
-                <p className="txt-770">Our Logo</p>
-                <div className="group-792 flex-row">
-                    <div className="group-518 flex-col">
-                    <div className="logo flex-col">
-                        <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-22%3A338?alt=media&token=eda9a695-3336-4feb-80d4-193ffff39904"
-                        alt="Not Found"
-                        className="asset-13"
-                        />
-                        <p className="txt-221">Growing. Together.</p>
-                    </div>
-                    <p className="txt-376">
-                        JFD Investama Logo consist of 5 visual graphics that represent
-                        our goals and vision. The graphical logo represents of
-                        simplicity that is wrapped in multi-interpretational element.
-                    </p>
-                    </div>
-                    <div className="group-6310 flex-col-hcenter">
-                    <div className="education">
-                        <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A192?alt=media&token=cdf9162c-bc51-425f-a83b-1a80b6ac669f"
-                        alt="Not Found"
-                        className="vector-6"
-                        />
-                        <p className="txt-652 flex-hcenter">
-                        (Education, Social, Financial) Goals
-                        </p>
-                    </div>
-                    <div className="wothines flex-col">
-                        <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-163%3A200?alt=media&token=470cf081-e8d8-493d-b601-0a78191189bc"
-                        alt="Not Found"
-                        className="layer-2"
-                        />
-                        <p className="txt-652 flex-hcenter">Growth</p>
-                    </div>
-                    </div>
-                    <div className="group-644 flex-col">
-                    <div className="unity-1 flex-col">
-                        <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A194?alt=media&token=04ce3142-120d-45a6-82c4-5cc5c5afd231"
-                        alt="Not Found"
-                        className="vector-7"
-                        />
-                        <p className="txt-652 flex-hcenter">Unity</p>
-                    </div>
-                    <div className="people flex-col-hcenter">
-                        <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-163%3A221?alt=media&token=54109649-3a20-4269-891e-8a3191fb36b7"
-                        alt="Not Found"
-                        className="layer-21"
-                        />
-                        <p className="txt-652 flex-hcenter">People</p>
-                    </div>
-                    </div>
-                    <div className="people flex-col-hcenter">
-                    <img
-                        src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/2y4s3et641s-253%3A197?alt=media&token=46b7b053-6e86-42a6-a5a2-53793f0b3a24"
-                        alt="Not Found"
-                        className="vector-8"
-                    />
-                    <p className="txt-652 flex-hcenter">Community</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div className="bg-content" style={{ backgroundImage: 'url(./images/bg-main-content.png)', width: 264, height:446 }}></div>
+
+                <div className="bg-content" style={{ backgroundImage: 'url(./images/bg-main-content.png)', width: 264, height: 446 }}></div>
             </div>
             <style jsx>{`
             /* Aboutmaincontent */
@@ -192,12 +190,16 @@ export default function AboutMainContent() {
             }
             
             .about-main-content {
-                padding: 74px 110px 66px 224px;
+                // padding: 74px 110px 66px 224px;
                 box-sizing: border-box;
                 background-color: rgba(11, 43, 64, 1);
                 // width: 1440px;
                 height: 1179px;
-                overflow:hidden
+                overflow:hidden;
+                padding-top: 60px;
+            }
+            .about-main-content  .container {
+                 max-width: 1123px !important;
             }
             
             .group-792 {
@@ -223,7 +225,6 @@ export default function AboutMainContent() {
             .group-608 {
                 margin-bottom: 31px;
                 box-sizing: border-box;
-                width: fit-content;
                 margin-top: 20px;
             }
             
@@ -231,6 +232,7 @@ export default function AboutMainContent() {
                 margin-right: 108px;
                 box-sizing: border-box;
                 height: fit-content;
+                margin-top: 19px;
             }
             
             .vector {
@@ -252,13 +254,14 @@ export default function AboutMainContent() {
                 font-family: Gilroy-Medium, sans-serif;
                 font-weight: normal;
                 color: rgba(255, 255, 255, 1);
+                width: 590px;
             }
             
             .group-950 {
-                margin-bottom: 87px;
+                margin-bottom: 77px;
                 box-sizing: border-box;
                 width: fit-content;
-                margin-top: 44px;
+                margin-top: 15px;
             }
             
             .core {
@@ -374,9 +377,6 @@ export default function AboutMainContent() {
                 margin-bottom: 37px;
             }
             
-            .group-792 {
-                width: fit-content;
-            }
             
             .group-518 {
                 margin-right: 4px;
@@ -402,6 +402,8 @@ export default function AboutMainContent() {
                 font-weight: undefined;
                 color: rgba(255, 255, 255, 1);
                 word-wrap: break-word;
+                margin-top: -8px;
+                margin-left: 6px;
             }
             
             .txt-376 {
@@ -412,6 +414,9 @@ export default function AboutMainContent() {
                 width: 381px;
                 height: 165px;
                 word-wrap: break-word;
+                margin-top: -6px;
+                margin-left: 10px;
+                line-height: 22px;
             }
             
             .group-6310 {
@@ -423,7 +428,7 @@ export default function AboutMainContent() {
             .education {
                 margin-bottom: 23px;
                 box-sizing: border-box;
-                height: 174.75px;
+                height: 190.75px;
                 width: 100%;
             }
             
@@ -431,7 +436,7 @@ export default function AboutMainContent() {
                 width: 140.04px;
                 height: 64.2px;
                 margin-left: auto;
-                margin-right: auto;
+                margin-right: 69px;
                 display: block;
                 margin-bottom: 47px;
                 margin-top: 15px;
@@ -519,6 +524,7 @@ export default function AboutMainContent() {
                 width: 75px;
                 height: 75px;
                 margin-bottom: 46px;
+                margin-top:10px;
             }
             
             .txt-652 {
@@ -539,7 +545,7 @@ export default function AboutMainContent() {
                 right: 0px;
             }
             `}</style>
-    </div>
-    
-  )
+        </div>
+
+    )
 }

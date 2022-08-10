@@ -1,7 +1,9 @@
 import React from "react"
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 export default function MainMenu() {
+    const router = useRouter();
     return (
         <div className="container">
             <div className="group-29">
@@ -13,19 +15,19 @@ export default function MainMenu() {
                     />
                     <div className="group-22 pull-left">
                         <Link href="/">
-                            <a className="txt-829">Home</a>
+                            <a className={`txt-829 ${router.pathname == "/" ? "active" : ""}`}>Home</a>
                         </Link>
                         <Link href="/about">
-                            <a className="txt-829">Who We Are</a>
+                            <a className={`txt-829 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a>
                         </Link>
                         <Link href="/whatwedo">
-                            <a className="txt-942">What We Do</a>
+                            <a className={`txt-942 ${["/whatwedo", "/joinvest", "/strategy"].indexOf(router.pathname) !== -1 ? "active" : ""}`}>What We Do</a>
                         </Link>
                         <Link href="/news">
-                            <a className="txt-599">News</a>
+                            <a className={`txt-942 ${router.pathname == "/news" ? "active" : ""}`}>News</a>
                         </Link>
                         <Link href="/contact">
-                            <a className="txt-786">Contact</a>
+                            <a className={`txt-942 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
                         </Link>
                     </div>
                     <div className="group-2 pull-right">
@@ -47,6 +49,9 @@ export default function MainMenu() {
     }
     a {
         text-decoration: none;
+    }
+    a.active {
+        color: hsl(154deg 31% 52% / 86%) !important;
     }
     .flex-row-vend {
 

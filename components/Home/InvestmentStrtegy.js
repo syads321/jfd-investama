@@ -1,7 +1,9 @@
 import React from "react"
+import Link from 'next/link'
+
 export default function InvestmentStrategy() {
   return (
-    <div>
+    <div style={{ paddingBottom: 300 }}>
       <div className="investment-strategy">
         <div className="group-796 container">
           <p className="txt-509">
@@ -10,31 +12,41 @@ export default function InvestmentStrategy() {
           </p>
         </div>
         <img
-            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ac74ymr4q1-244%3A187?alt=media&token=e10133e0-0609-4721-bd21-20b9e9685d21"
-            alt="Not Found"
-            className="vector"
-          />
+          src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/ac74ymr4q1-244%3A187?alt=media&token=e10133e0-0609-4721-bd21-20b9e9685d21"
+          alt="Not Found"
+          className="vector"
+        />
         <div className="container">
           <div className="row">
             <div className="pull-left col-xs-6 jo-invest">
-              <div className="group-276 flex-col">
-                <p className="txt-966">Our Investment Strategy</p>
-                <p className="txt-757">
-                  JFD Investama invests in high growth and innovative companies in
-                  Indonesia.
-                </p>
-              </div>
-              <p className="txt-1057 flex-hend">More About Us </p>
+              <img className="image-bg" src="/images/investment-strategy.jpg"/>
+              <Link href="/strategy">
+                <div style={{ cursor: 'pointer' }}>
+                  <div className="group-276 flex-col">
+                    <p className="txt-966">Our Investment Strategy</p>
+                    <p className="txt-757">
+                      JFD Investama invests in high growth and innovative companies in
+                      Indonesia.
+                    </p>
+                  </div>
+                  <p className="txt-1057 flex-hend">More About Us </p>
+                </div>
+              </Link>
             </div>
             <div className="pull-right col-xs-6 jo-invest">
-              <div className="group-276 flex-col">
-                <p className="txt-966">Joinvest</p>
-                <p className="txt-757">
-                  Focusing on growing the community and quality of content in the
-                  social media.
-                </p>
-              </div>
-              <p className="txt-1057 flex-hend">More About Us </p>
+            <img className="image-bg" src="/images/joinvest-bg.jpg"/>
+              <Link href="/joinvest">
+                <div style={{ cursor: 'pointer' }}>
+                  <div className="group-276 flex-col">
+                    <p className="txt-966">Joinvest</p>
+                    <p className="txt-757">
+                      Focusing on growing the community and quality of content in the
+                      social media.
+                    </p>
+                  </div>
+                  <p className="txt-1057 flex-hend">More About Us </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -122,8 +134,21 @@ export default function InvestmentStrategy() {
           linear-gradient(0deg, rgba(53, 157, 158, 1), rgba(53, 157, 158, 1));
         width: 514.5px;
         height: 294px;
+        position:relative;
+        overflow:hidden;
       }
       
+      img.image-bg {
+        position: absolute;
+        width: 102%;
+        left: -100%;
+        opacity:0;
+        transition: all 0.3s ease-out;
+      }
+      .jo-invest:hover img.image-bg {
+        left:0;
+        opacity:1;
+      }
       .group-276 {
         position: absolute;
         top: 60px;

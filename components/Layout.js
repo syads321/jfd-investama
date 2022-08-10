@@ -9,7 +9,7 @@ export default function Layout({children}) {
   return (
     <div>
       <Head>
-        <title>JFD Investama</title>
+        <title>JFD Investama | Growing Together</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="./css/bootstrap.min.css" rel="stylesheet"></link>
       </Head>

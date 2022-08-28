@@ -68,19 +68,19 @@ Kec. Tebet, <br/> Jakarta Selatan, 12870.
                     <div className="footer-menu flex-col">
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/"><p className={`txt-661 ${router.pathname == "/" ? "active" : ""}`}>Home</p></Link>
+                            <Link href="/"><a className={`txt-661 ${router.pathname == "/" ? "active" : ""}`}>Home</a></Link>
                         </div>
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/about"><p className={`txt-661 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</p></Link>
+                            <Link href="/about"><a className={`txt-661 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a></Link>
                         </div>
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/whatwedo"><p className={`txt-661 ${["/whatwedo", "/joinvest", "/strategy"].indexOf(router.pathname) !== -1 ? "active" : ""}`}>What We Do</p></Link>
+                            <Link href="/whatwedo"><a className={`txt-661 ${["/whatwedo", "/joinvest", "/strategy"].indexOf(router.pathname) !== -1 ? "active" : ""}`}>What We Do</a></Link>
                         </div>
                         <div className="flex-row">
                             <p className="txt-2105"> </p>
-                            <Link href="/contact"><p className={`txt-661 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</p></Link>
+                            <Link href="/contact"><a className={`txt-661 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a></Link>
                         </div>
                     </div>
                     {/* <div className="contact-form flex-col">
@@ -307,6 +307,11 @@ Kec. Tebet, <br/> Jakarta Selatan, 12870.
               color: rgba(255, 255, 255, 1);
               word-wrap: break-word;
             }
+            a.txt-661:hover, a.txt-661.active {
+              text-decoration:none;
+              color:#7ce495!important;
+            }
+            
             
             .group-760 {
               margin-bottom: 13px;

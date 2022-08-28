@@ -23,14 +23,14 @@ export default function MainMenu() {
                         <Link href="/whatwedo">
                             <a className={`txt-942 ${["/whatwedo", "/joinvest", "/strategy"].indexOf(router.pathname) !== -1 ? "active" : ""}`}>What We Do</a>
                         </Link>
-                        <Link href="/news">
+                        {/* <Link href="/news">
                             <a className={`txt-942 ${router.pathname == "/news" ? "active" : ""}`}>News</a>
-                        </Link>
+                        </Link> */}
                         <Link href="/contact">
                             <a className={`txt-942 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
                         </Link>
                     </div>
-                    <div className="group-2 pull-right">
+                    {/* <div className="group-2 pull-right">
                         <div className="col-xs-12">
                             <p className="txt-939">Search</p>
                             <img
@@ -39,7 +39,7 @@ export default function MainMenu() {
                                 className="ant-design-search-outlined"
                             />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <style jsx>{`
     /* Group29 */
@@ -51,7 +51,8 @@ export default function MainMenu() {
         text-decoration: none;
     }
     a.active {
-        color: hsl(154deg 31% 52% / 86%) !important;
+        color: #7ce495 !important;
+        text-decoration: none;
     }
     .flex-row-vend {
 
@@ -145,6 +146,10 @@ export default function MainMenu() {
     position:absolute;
     top: 0px;
     right: 0px;
+    }
+
+    a:hover {
+        color: #58c595;
     }
 
         `}

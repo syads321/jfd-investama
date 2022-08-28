@@ -34,12 +34,11 @@ export default function Footer() {
                                     <p className="txt-907">support@jfd-investama.com</p>
                                 </div>
                             </div>
-                            <p className="txt-702">000-000-000-000</p>
                             <p className="txt-828">Office 88</p>
                             <p className="txt-093">
-                            Jl. Casablanca Raya Kav. 88 Office 88 Lt. 9 Unit A
+                            Jl. Casablanca Raya Kav. 88 Office 88 Lt. 9 <br/>Unit A
 Office 88, Kota Casablanca, Kel. Menteng Dalam,
-Kec. Tebet, Jakarta Selatan, 12870.
+Kec. Tebet, <br/> Jakarta Selatan, 12870.
                             </p>
                         </div>
                         <img
@@ -78,10 +77,6 @@ Kec. Tebet, Jakarta Selatan, 12870.
                         <div className="group-760 flex-row">
                             <p className="txt-2105"> </p>
                             <Link href="/whatwedo"><p className={`txt-661 ${["/whatwedo", "/joinvest", "/strategy"].indexOf(router.pathname) !== -1 ? "active" : ""}`}>What We Do</p></Link>
-                        </div>
-                        <div className="group-1110 flex-row">
-                            <p className="txt-2105"> </p>
-                            <Link href="/news"><p className={`txt-661 ${router.pathname == "/news" ? "active" : ""}`}>News</p></Link>
                         </div>
                         <div className="flex-row">
                             <p className="txt-2105"> </p>
@@ -424,7 +419,7 @@ Kec. Tebet, Jakarta Selatan, 12870.
             .group {
               position: absolute;
               top: 241px;
-              left: 1282px;
+              right: 0px;
               width: 211.73px;
               height: 268.78px;
             }

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
@@ -9,10 +10,10 @@ import Portfolio from '../components/Joinvest/Portfolio'
 export default function Home() {
   return (
     <Layout>
-        <Banner height={462}>
+        <Banner height={462} multiplier={0}>
         <div className="about-headline">
             <p className="txt-406">Our Investment Strategy</p>
-            <p className="txt-101">Home  >>  What We Do >> Our Investment Strategy</p>
+            <p className="txt-101"><Link href="/"><a className="breadcrumbs active">Home</a></Link>  >>  <Link href="/whatwedo"><a className="breadcrumbs active">What We Do</a></Link> >> Our Investment Strategy</p>
         </div>
         </Banner>
         <div className="container">

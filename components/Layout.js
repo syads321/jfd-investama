@@ -48,6 +48,10 @@ export default function Layout({children}) {
       .text-center {
         text-align: center;
       }
+      a.breadcrumbs.active {
+        color: #7ce495 !important;
+        text-decoration: none;
+       }
       `}</style>
     </div>
   )

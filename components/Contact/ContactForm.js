@@ -43,7 +43,7 @@ export default function ContactForm() {
         border-radius: 15px;
         // background-color: rgba(255, 255, 255, 1);
         width: 351px;
-        height: 618.75px;
+        height: 0px;
         margin-top: -258px;
         margin-left: 16px;
       }

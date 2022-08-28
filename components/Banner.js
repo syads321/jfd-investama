@@ -15,7 +15,7 @@ export default function Banner({ children, height = 809 , multiplier = 49}) {
           </div>
           <style jsx>{`
        /* Group28 */
-
+    
        p {
          margin: 0;
        }

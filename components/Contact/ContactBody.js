@@ -5,7 +5,7 @@ export default function ContactBody() {
   return (
     <div className="contact-body">
       <div className="group-365 row">
-        <div className="contact-office col-xs-4">
+        <div className="contact-office col-xs-5">
           <div className="group-513 flex-row">
             <img
               src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e90lmkv79dt-259%3A261?alt=media&token=9c52ae82-1554-4189-94bc-da8be7c16e13"
@@ -16,23 +16,23 @@ export default function ContactBody() {
           </div>
           <p className="txt-590">Office 88</p>
           <p className="txt-928">
-          Jl. Casablanca Raya Kav. 88 Office 88 Lt. 9 Unit A
-Office 88, Kota Casablanca, Kel. Menteng Dalam,
+          Jl. Casablanca Raya Kav. 88 Office 88 Lt. 9 <br/> Unit A
+Office 88, Kota Casablanca, Kel. Menteng Dalam,<br/>
 Kec. Tebet, Jakarta Selatan, 12870.
           </p>
         </div>
-        <div className="contact-phone col-xs-4">
+        <div className="contact-phone col-xs-5">
           <p className="txt-224">Quick Contact</p>
           <div className="group-939 flex-row">
-            <img
+            {/* <img
               src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e90lmkv79dt-259%3A267?alt=media&token=3d334efd-6a59-4f6e-8345-e8b1c218d875"
               alt="Not Found"
               className="image-1"
-            />
-            <div className="group-298 flex-col">
+            /> */}
+            {/* <div className="group-298 flex-col">
               <p className="txt-307">Phone:</p>
               <p className="txt-556">0000-0000-0000</p>
-            </div>
+            </div> */}
           </div>
           <div className="group-365 flex-row">
             <img
@@ -42,7 +42,7 @@ Kec. Tebet, Jakarta Selatan, 12870.
             />
             <div className="group-298 flex-col">
               <p className="txt-307">Email:</p>
-              <p className="txt-556">support@jfd-investama.com</p>
+              <p className="txt-556">info@jfd-investama.com</p>
             </div>
           </div>
         </div>
@@ -112,10 +112,10 @@ Kec. Tebet, Jakarta Selatan, 12870.
           font-family: Gilroy-Bold, sans-serif;
           font-weight: undefined;
           color: rgba(255, 255, 255, 1);
-          width: 287px;
+          width: 300px;
           height: 42px;
           word-wrap: break-word;
-          margin-bottom: 29px;
+          margin-bottom: 0px;
         }
         
         .txt-928 {
@@ -123,7 +123,7 @@ Kec. Tebet, Jakarta Selatan, 12870.
           font-family: Gilroy-Regular, sans-serif;
           font-weight: undefined;
           color: rgba(255, 255, 255, 1);
-          width: 293px;
+          width: 355px;
           height: 85px;
           word-wrap: break-word;
         }

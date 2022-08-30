@@ -21,7 +21,7 @@ export default function InvestmentStrategy() {
             <div className="pull-left col-xs-6 jo-invest">
               <img className="image-bg" src="/images/investment-strategy.jpg"/>
               <Link href="/strategy">
-                <div style={{ cursor: 'pointer' }}>
+                <a style={{ cursor: 'pointer' }}>
                   <div className="group-276 flex-col">
                     <p className="txt-966">Our Investment Strategy</p>
                     <p className="txt-757">
@@ -30,13 +30,13 @@ export default function InvestmentStrategy() {
                     </p>
                   </div>
                   <p className="txt-1057 flex-hend">More About Us </p>
-                </div>
+                </a>
               </Link>
             </div>
             <div className="pull-right col-xs-6 jo-invest">
             <img className="image-bg" src="/images/joinvest-bg.jpg"/>
               <Link href="/joinvest">
-                <div style={{ cursor: 'pointer' }}>
+                <a style={{ cursor: 'pointer' }}>
                   <div className="group-276 flex-col">
                     <p className="txt-966">Joinvest</p>
                     <p className="txt-757">
@@ -45,7 +45,7 @@ export default function InvestmentStrategy() {
                     </p>
                   </div>
                   <p className="txt-1057 flex-hend">More About Us </p>
-                </div>
+                </a>
               </Link>
             </div>
           </div>

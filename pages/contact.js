@@ -1,13 +1,12 @@
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import Banner from '../components/Banner'
-import ContactHead from '../components/Contact/ContactHead'
 import ContactBody from '../components/Contact/ContactBody'
-import ContactForm from '../components/Contact/ContactForm'
+import Mobile from './mobile/contact'
 
-export default function Home() {
+export default function Contact() {
     return (
-        <Layout>
+        <Layout mobile={<Mobile/>}>
             <Banner>
                 <div className="contact-head">
                     <div className="group-773 flex-col">

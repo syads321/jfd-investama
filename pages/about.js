@@ -4,10 +4,11 @@ import Banner from '../components/Banner'
 import AboutContent from '../components/About/AboutContent'
 import AboutMainContent from '../components/About/AboutMainContent'
 import AboutOurTeam from '../components/About/AboutOurTeam'
+import Mobile from './mobile/about'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout mobile={<Mobile/>}>
         <Banner>
         <div className="about-headline">
             <p className="txt-406">Who We Are</p>

@@ -4,10 +4,11 @@ import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 import InvesmentStrategy from '../components/Joinvest/InvestmentStrategy'
 import Divestment from '../components/Joinvest/Divestment'
+import Mobile from './mobile/joinvest'
 
 export default function Home() {
     return (
-        <Layout>
+        <Layout mobile={<Mobile/>}>
             <Banner height={462} multiplier={0}>
                 <div className="about-headline">
                     <p className="txt-406">Joinvest</p>

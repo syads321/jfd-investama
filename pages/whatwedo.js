@@ -3,10 +3,11 @@ import Footer from '../components/Footer'
 import Banner from '../components/Banner'
 import WwdPreface from '../components/WhatWeDo/WwdPreface'
 import WwdItem from '../components/WhatWeDo/WwdItem'
+import WhatWeDo from './mobile/whatwedo'
 
 export default function Home() {
     return (
-        <Layout>
+        <Layout mobile={<WhatWeDo/>}>
             <Banner height={461} multiplier={0}>
                 <div className="breadcrumbs">
                     <p className="txt-862">What We Do</p>

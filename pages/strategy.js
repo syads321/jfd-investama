@@ -6,10 +6,11 @@ import InvesmentStrategy from '../components/Joinvest/InvestmentStrategy'
 import Divestment from '../components/Joinvest/Divestment'
 import DealSourcing from '../components/Joinvest/DealSourcing'
 import Portfolio from '../components/Joinvest/Portfolio'
+import Mobile from './mobile/strategy'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout mobile={<Mobile/>}>
         <Banner height={462} multiplier={0}>
         <div className="about-headline">
             <p className="txt-406">Our Investment Strategy</p>

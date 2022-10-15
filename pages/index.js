@@ -4,11 +4,11 @@ import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import HomeMainContent from '../components/Home/HomeMainContent'
 import InvestmentStrategy from '../components/Home/InvestmentStrtegy'
-import LatestFromUs from '../components/Home/LatestFromUs'
+import HomeMobile from './mobile/home'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout mobile={<HomeMobile/>}>
       <Banner>
         <p className="txt-823">Growing Together</p>
         <p className="txt-1110">

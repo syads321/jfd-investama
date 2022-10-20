@@ -49,6 +49,7 @@ export default function Contact() {
                 .main-wrapper {
                     position:relative;
                     padding-bottom: 61px;
+                    overflow:hidden;
                 }
                 .wrapper {
                      max-width: 294px;

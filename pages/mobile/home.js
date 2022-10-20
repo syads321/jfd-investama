@@ -99,6 +99,7 @@ export default function HomeMobile() {
         padding-top: 138px;
         position: relative;
         padding-bottom: 146px;
+        overflow:hidden;
     }
     .home-bg {
         position: absolute;
@@ -156,6 +157,7 @@ export default function HomeMobile() {
     .mid-preface-home {
         margin-top: 117px;
         position: relative;
+        overflow:hidden;
     }
     .mid-preface-home .bg {
         width: 100%;

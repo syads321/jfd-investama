@@ -6,7 +6,7 @@ export default function MobileMenu() {
     return (
         <>
             <div className="menu-wrapper">
-                <button onTouchStart={() => {!showMenu ? setShowMenu(true) : setShowMenu(false) }}>
+                <button onClick={() => {!showMenu ? setShowMenu(true) : setShowMenu(false) }}>
                     <img src="/images/mobile-menu.png" />
                 </button>
             </div>

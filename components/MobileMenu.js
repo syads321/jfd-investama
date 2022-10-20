@@ -1,10 +1,12 @@
 import { useState } from "react"
+import { useRouter } from 'next/router';
 export default function MobileMenu() {
     const [showMenu, setShowMenu] = useState(false)
+    const router = useRouter();
     return (
         <>
             <div className="menu-wrapper">
-                <button onTouchStart={() => {setShowMenu(true)}}>
+                <button onTouchStart={() => {!showMenu ? setShowMenu(true) : setShowMenu(false) }}>
                     <img src="/images/mobile-menu.png" />
                 </button>
             </div>
@@ -14,16 +16,20 @@ export default function MobileMenu() {
                         <img src="/images/close-menu.png" />
                     </button>
                     <div className="group-753">
-                        <a className="txt-953">Home</a>
-                        <a className="txt-953">Who We Are</a>
-                        <a className="txt-953">What We Do</a>
-                        <a className="txt-953">Contact</a>
+                        <a href="/" className={`txt-953 ${router.pathname == "/" ? "active" : ""}`}>Home</a>
+                        <a href="/about" className={`txt-953 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a>
+                        <a href="/whatwedo" className={`txt-953 ${router.pathname == "/whatwedo" ? "active" : ""}`}>What We Do</a>
+                        <a href="/contact" className={`txt-953 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
                     </div>
                 </div>
 
             </div> : null}
             
             <style jsx>{`
+                a.active {
+                    color: #7ce495 !important;
+                    text-decoration: none;
+                }
                 .main-menu-wrapper {
                     position:relative;
                 }

@@ -18,6 +18,7 @@ export default function BannerMobile({children, noribbon, noribbonHeight =  524}
                     margin-left: auto;
                     margin-right: auto;
                     height: 469px;
+                    overflow:hidden;
                 }
 
                 .wrapper-content {

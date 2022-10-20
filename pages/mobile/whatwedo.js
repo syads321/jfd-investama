@@ -20,7 +20,7 @@ export default function Strategy() {
                 </p>
             </div>
             <div className="wwd-group mid">
-                <div className="wwd-item flex-col-hstart-vstart">
+                <a href="/strategy" className="wwd-item flex-col-hstart-vstart">
                     <img className="bg" src="/images/strategy-tb.png" />
                     <div className="group-43">
                         <p className="txt-334 text-center">Investment</p>
@@ -29,8 +29,8 @@ export default function Strategy() {
                         <p className="txt-485">Our Investment Strategy</p>
                         <p className="txt-362"> > GO THROUGH</p>
                     </div>
-                </div>
-                <div className="wwd-item flex-col-hstart-vstart">
+                </a>
+                <a href="/joinvest" className="wwd-item flex-col-hstart-vstart">
                     <img className="bg" src="/images/joinvest-tb.jpg" />
                     <div className="group-43">
                         <p className="txt-334 text-center">Community</p>
@@ -39,7 +39,7 @@ export default function Strategy() {
                         <p className="txt-485">Joinvest</p>
                         <p className="txt-362"> > GO THROUGH</p>
                     </div>
-                </div>
+                </a>
             </div>
             <FooterMobile />
             <style jsx>{`
@@ -60,6 +60,7 @@ export default function Strategy() {
                     position:relative;
                     padding-top:7px;
                     margin-bottom: 36px;
+                    display:block;
                 }
                 .wwd-item .bg {
                     position:absolute;

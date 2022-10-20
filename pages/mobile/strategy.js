@@ -113,6 +113,29 @@ export default function Strategy() {
                 .group {
                     margin-top: 12px;
                 }
+                .txt-370 {
+                    font-size: 16px;
+                    font-family: Gilroy-Medium,sans-serif;
+                    font-weight: undefined;
+                    color: rgba(255,255,255,1);                 
+                    width: 258px;
+                    word-wrap: break-word;
+                    line-height: 20px;
+                    margin:0px;
+                    margin-top: 9px;
+                  }
+                  
+                  .txt-266 {
+                    font-size: 45px;
+                    font-family: Gilroy-Black,sans-serif;
+                    font-weight: undefined;
+                    line-height: 96%;
+                    color: rgba(255,255,255,1);
+                    margin:0px;
+                  }
+                  .home-banner-content {
+                    padding-top: 314px;
+                  }
             `}</style>
         </>
     )

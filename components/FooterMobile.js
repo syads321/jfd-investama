@@ -1,5 +1,7 @@
 import React from "react"
+import { useRouter } from 'next/router';
 export default function FooterMobile() {
+    const router = useRouter();
     return (
         <>
             <div className="footer-mobile">
@@ -29,16 +31,19 @@ export default function FooterMobile() {
                 </div>
                 <div className="footer-wrapper mid">
                     <div className="flex footermenu">
-                        <a href="">Home</a>
-                        <a href="">Who We Are</a>
-                        <a href="">What We Do</a>
-                        <a href="">Contact</a>
+                        <a href="/" className={`txt-953 ${router.pathname == "/" ? "active" : ""}`}>Home</a>
+                        <a href="/about" className={`txt-953 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a>
+                        <a href="/whatwedo" className={`txt-953 ${router.pathname == "/whatwedo" ? "active" : ""}`}>What We Do</a>
+                        <a href="/contact" className={`txt-953 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
                     </div>
                 </div>
             </div>
             <style jsx>{`
             .footer-mobile {
                 position: relative;
+            }
+            a.active {
+                color: hsl(154deg 31% 52% / 86%) !important;
             }
             .footer-wrapper {
                 width: 307px;

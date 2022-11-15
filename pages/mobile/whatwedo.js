@@ -77,7 +77,7 @@ export default function Strategy() {
                     line-height: 31px;
                     border-radius: 7px;
                     font-family: 'Gilroy-Medium';
-                    font-size: 13px;
+                    font-size: 0.8em;
                 }
                 .title {
                     width: 216px;
@@ -93,20 +93,21 @@ export default function Strategy() {
                 p.txt-704 {
                     margin-top: 0px;
                     margin-bottom: 0px;
+                    font-size: 1.1em;
                 }
                 .txt-485 {
                     font-family: 'Gilroy-Bold';
-                    font-size: 19px;
+                    font-size: 1.2em;
                     color: #0B2B40;
                     margin-bottom: 7px;
                 }
                 .txt-362 {
                     font-family: 'Gilroy-Light';
-                    font-size: 12px;
+                    font-size: 0.7em;
                     margin-top: 0px;
                 }
                 .txt-370 {
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: Gilroy-Medium,sans-serif;
                     font-weight: undefined;
                     color: rgba(255,255,255,1);
@@ -118,7 +119,7 @@ export default function Strategy() {
                   }
                   
                   .txt-266 {
-                    font-size: 45px;
+                    font-size: 3.3em;;
                     font-family: Gilroy-Black,sans-serif;
                     font-weight: undefined;
                     line-height: 96%;

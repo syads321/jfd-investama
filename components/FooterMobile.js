@@ -5,11 +5,16 @@ export default function FooterMobile() {
     return (
         <>
             <div className="footer-mobile">
-                <img className="bg" src="/images/bg-footer.png" />
-                <div className="footer-wrapper image-footer-wrapper mid">
-                    <img src="/images/logo-footer.png" />
+                <img className="bg-image" src="/images/bg-footer-mobile-1.png" />
+                <img className="bg-image" src="/images/bg-footer-mobile-2.png" />
+                <div className="wrapper-mobile">
+                    <div className="image-footer-wrapper">
+                        <img src="/images/logo-footer.png" />
+                    </div>
                 </div>
-                <div className="footer-wrapper mid">
+                {/* <img className="bg" src="/images/bg-footer.png" /> */}
+
+                <div className="wrapper-mobile">
                     <div className="flex">
                         <img className="image-pin" src="/images/pin-point.png" />
                         <div className="address-pin">
@@ -29,7 +34,7 @@ export default function FooterMobile() {
                         </div>
                     </div>
                 </div>
-                <div className="footer-wrapper mid">
+                <div className="wrapper-mobile">
                     <div className="flex footermenu">
                         <a href="/" className={`txt-953 ${router.pathname == "/" ? "active" : ""}`}>Home</a>
                         <a href="/about" className={`txt-953 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a>
@@ -37,10 +42,19 @@ export default function FooterMobile() {
                         <a href="/contact" className={`txt-953 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
                     </div>
                 </div>
+                <img className="footer-ribbon" src="/images/ribbon.png" /> 
             </div>
             <style jsx>{`
             .footer-mobile {
                 position: relative;
+                background: #0B2B40;
+                overflow:hidden;
+            }
+            .footer-ribbon {
+                position:absolute;
+                width:100px;
+                bottom:0px;
+                right: -12px;
             }
             a.active {
                 color: hsl(154deg 31% 52% / 86%) !important;
@@ -48,12 +62,16 @@ export default function FooterMobile() {
             .footer-wrapper {
                 width: 307px;
             }
-            .footer-mobile .bg {
-                z-index: -1;
-                position: absolute;
-                top: 0px;
-                width: 100%;
-                left:-3px;
+            .bg-image {
+                position:absolute;
+            }
+            .bg-image:first-child {
+                right:0px;
+                top: 35px;
+            }
+            .bg-image:first-child + .bg-image{
+                left: 0px;
+                top: 42px;
             }
             .contact-text.flex-col {
                 color: #FFF;
@@ -69,7 +87,7 @@ export default function FooterMobile() {
             }
             p.txt-458 {
                 margin: 0px;
-                font-size: 16px;
+                font-size: 1.2em;
                 margin-top: 23px;
                 font-family: 'Gilroy-Light';
             }
@@ -82,18 +100,19 @@ export default function FooterMobile() {
                 margin: 0px;
                 margin-top: 4px;
                 line-height: 14px;
-                font-size: 11px;
+                font-size: 1.2rem;
             }
             img.image-carbon {
                 margin-top: 15px;
+                width: 24px;
             }
             .txt-405 {
                 color: #fff;
                 margin: 0px;
-                margin-top: 19px;
+                margin-top: 17px;
                 margin-left: 9px;
                 font-family: 'Gilroy-Light';
-                font-size: 13px;
+                font-size: 1.4rem;
             }
             img.image-pin {
                 width: 60px;
@@ -106,13 +125,14 @@ export default function FooterMobile() {
                 font-family: 'Gilroy-Medium';
             }
             .footermenu a {
-                font-size: 10px;
+                font-size: 0.72em;
                 margin-right: 24px;
                 color:#FFF;
                 text-decoration:none;
             }
             .address-pin {
                 color: #FFF;
+                margin-left: 7px;
             }
         `}</style>
         </>

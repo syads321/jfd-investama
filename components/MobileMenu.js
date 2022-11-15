@@ -6,25 +6,30 @@ export default function MobileMenu() {
     return (
         <>
             <div className="menu-wrapper">
-                <button onClick={() => {!showMenu ? setShowMenu(true) : setShowMenu(false) }}>
-                    <img src="/images/mobile-menu.png" />
-                </button>
-            </div>
-            {showMenu ? <div className="main-menu">
-                <div className="main-menu-wrapper">
-                    <button onTouchStart={() => {setShowMenu(false)}}>
-                        <img src="/images/close-menu.png" />
+                <div className="wrapper-mobile">
+                    <button style={{'float': 'right'}} onClick={() => { !showMenu ? setShowMenu(true) : setShowMenu(false) }}>
+                        <img src="/images/mobile-menu.png" />
                     </button>
-                    <div className="group-753">
-                        <a href="/" className={`txt-953 ${router.pathname == "/" ? "active" : ""}`}>Home</a>
-                        <a href="/about" className={`txt-953 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a>
-                        <a href="/whatwedo" className={`txt-953 ${router.pathname == "/whatwedo" ? "active" : ""}`}>What We Do</a>
-                        <a href="/contact" className={`txt-953 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
-                    </div>
                 </div>
+            </div>
+            <div className="main-menu">
+                {showMenu ? <div className="main-menu">
+                    <div className="main-menu-wrapper">
+                        <button onTouchStart={() => { setShowMenu(false) }}>
+                            <img src="/images/close-menu.png" />
+                        </button>
+                        <div className="group-753">
+                            <a href="/" className={`txt-953 ${router.pathname == "/" ? "active" : ""}`}>Home</a>
+                            <a href="/about" className={`txt-953 ${router.pathname == "/about" ? "active" : ""}`}>Who We Are</a>
+                            <a href="/whatwedo" className={`txt-953 ${router.pathname == "/whatwedo" ? "active" : ""}`}>What We Do</a>
+                            <a href="/contact" className={`txt-953 ${router.pathname == "/contact" ? "active" : ""}`}>Contact</a>
+                        </div>
+                    </div>
 
-            </div> : null}
-            
+                </div> : null}
+            </div>
+
+
             <style jsx>{`
                 a.active {
                     color: #7ce495 !important;
@@ -36,8 +41,9 @@ export default function MobileMenu() {
                 .menu-wrapper {
                     position: absolute;
                     top: 40px;
-                    right: 13px;
+                    left:0px;
                     z-index:1000;
+                    width:100%;
                 }
                 .menu-wrapper button, .main-menu button {
                     background:none;

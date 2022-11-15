@@ -70,7 +70,18 @@ export default function Strategy() {
                 <div className="portofolio">
                     <div className="title mid wrapper text-center text-bold">Our Portfolio</div>
                     <div className="group">
-                        <img className="bg display-block mid" src="/images/portfolio.png" />
+                        <div className="flex justify-center">
+                            <img style={{height: 80}} src='/images/portfolio/pgn.png' />
+                            <img style={{height: 80}} src='/images/portfolio/bri.png' />
+                        </div>
+                        <div className="flex justify-center">
+                            <img style={{height: 60}} src='/images/portfolio/indah-kiat.png' />
+                            <img  style={{height: 60}} src='/images/portfolio/bukit-asam.png' />
+                        </div>
+                        <div className="flex justify-center">
+                            <img style={{height: 100}} src='/images/portfolio/antam.png' />
+                            <img style={{height: 100}} src='/images/portfolio/anj.png' />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,7 +97,7 @@ export default function Strategy() {
                 }
                 .txt-651 {
                     margin-top: 3px;
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: 'Gilroy-Regular';
                 }
                 .txt-248 {
@@ -114,7 +125,7 @@ export default function Strategy() {
                     margin-top: 12px;
                 }
                 .txt-370 {
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: Gilroy-Medium,sans-serif;
                     font-weight: undefined;
                     color: rgba(255,255,255,1);                 
@@ -126,7 +137,7 @@ export default function Strategy() {
                   }
                   
                   .txt-266 {
-                    font-size: 45px;
+                    font-size: 3.3em;;
                     font-family: Gilroy-Black,sans-serif;
                     font-weight: undefined;
                     line-height: 96%;

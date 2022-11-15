@@ -13,7 +13,7 @@ export default function HomeMobile() {
                 </div>
                 <style jsx>{`
                   .txt-370 {
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: Gilroy-Medium,sans-serif;
                     font-weight: undefined;
                     color: rgba(255,255,255,1);
@@ -25,7 +25,8 @@ export default function HomeMobile() {
                   }
                   
                   .txt-266 {
-                    font-size: 45px;
+                    font-size: 3.3em;
+                    // font-size: 3.3em;;
                     font-family: Gilroy-Black,sans-serif;
                     font-weight: undefined;
                     line-height: 96%;
@@ -37,10 +38,9 @@ export default function HomeMobile() {
                   }
                 `}</style>
             </BannerMobile>
-            <div className="wrapper">
+            <div>
                 <div className="home-wrapper">
-                    <img className="home-bg" src="/images/home-bg.jpg" />
-                    <div className="content">
+                    <div className="wrapper-mobile content">
                         <p className="txt-708">About <br /> Our Company</p>
                         <p className="txt-660 flex-hend">
                             JFD Investama was founded in 2022 and pursues an ambition of becoming
@@ -54,13 +54,13 @@ export default function HomeMobile() {
                             forwards energy to giving back to society, that encourages educational,
                             financial and social growth.
                         </p>
-                        <p className="txt-249 flex-hend">More About Us </p>
+                        <img style={{width: 163}} src='/images/home-logo.png' />
+                        <a href="/about" style={{color: 'black'}}><p className="txt-249 flex-hend">More About Us >></p></a>
                     </div>
 
                 </div>
                 <div className="mid-preface-home">
-                    <img className="bg" src="/images/mid-preface-home.jpg" />
-                    <p className="txt-964">
+                    <p className="txt-964 wrapper-mobile content">
                         Our investment strategy defines our persona and embodies our next step
                         in investing
                     </p>
@@ -74,7 +74,7 @@ export default function HomeMobile() {
                                 Indonesia.
                             </p>
                         </div>
-                        <p className="txt-1210 flex-hend">More About Us </p>
+                        <a href="/about"><p className="txt-1210 flex-hend">More About Us >> </p></a>
                     </div>
                     <div className="jo-invest flex-col-hstart-vstart" style={{ marginTop: 24 }}>
                         <div className="group-353 flex-col">
@@ -83,7 +83,7 @@ export default function HomeMobile() {
                                 Focusing on growing the community and quality of content in the social media.
                             </p>
                         </div>
-                        <p className="txt-1210 flex-hend">More About Us </p>
+                        <a href="/about"><p className="txt-1210 flex-hend">More About Us >> </p></a>
                     </div>
                 </div>
                 <FooterMobile />
@@ -98,8 +98,9 @@ export default function HomeMobile() {
      .home-wrapper {
         padding-top: 138px;
         position: relative;
-        padding-bottom: 146px;
+        padding-bottom: 10px;
         overflow:hidden;
+        background: url('/images/home-bg.png') no-repeat bottom right;
     }
     .home-bg {
         position: absolute;
@@ -114,7 +115,7 @@ export default function HomeMobile() {
         width: 250px;
     }
     .txt-660 {
-        font-size: 14px;
+        font-size: 1.2em;
         margin-top: 34px;
         text-align: justify;
     }
@@ -127,10 +128,11 @@ export default function HomeMobile() {
         margin-top: -54px;
         font-weight: bold;
         font-size: 18px;
-        width: 142px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding-bottom: 12px;
     }
     .content-bottom-home {
-        margin-top: 44px;
+        margin-top: -21px;
         margin-bottom: 84px;
     }
     .jo-invest.flex-col-hstart-vstart {
@@ -142,6 +144,10 @@ export default function HomeMobile() {
         padding-left: 35px;
         padding-right: 64px;
         padding-bottom: 17px;
+        font-size: 15px;
+    }
+    .jo-invest.flex-col-hstart-vstart a {
+        color: #FFF;
     }
     .group-353 {
         padding-top: 15px;
@@ -155,9 +161,9 @@ export default function HomeMobile() {
         font-weight: bold;
     }
     .mid-preface-home {
-        margin-top: 117px;
-        position: relative;
+        margin-top: 84px;
         overflow:hidden;
+        background: #0B2B40 url('/images/bg-mid-preface.png') no-repeat right top;
     }
     .mid-preface-home .bg {
         width: 100%;
@@ -166,10 +172,16 @@ export default function HomeMobile() {
         top: 0px;
     }
     .txt-964 {
-        padding-top: 76px;
+        padding-top: 19px;
         color: #FFF;
-        margin-left: 42px;
-        width: 233px;
+        border-top: 1px solid #FFF;
+        margin-top: 30px;
+        padding-bottom: 38px;
+        font-size: 1.2em;
+    }
+
+    p.txt-249 {
+        font-weight: bold;
     }
       `}</style>
         </>

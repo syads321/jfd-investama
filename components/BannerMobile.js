@@ -1,20 +1,32 @@
 import React from "react"
 
-export default function BannerMobile({children, noribbon, noribbonHeight =  524}) {
+export default function BannerMobile({ children, noribbon, noribbonHeight = 524 }) {
     return (
         <>
-            <div className="banner-wrapper">
-                {noribbon ? <img className="img-bg-noribbon" src="/images/contact-bg.jpg" /> : <img className="img-bg" src="/images/header-bg-sm.jpg" />}
-                <div className="wrapper-content mid">
-                    {children}
-                </div>
-                <img className="logo-img" src="/images/logo-sm.png" />
-            </div >
+            <div className="ribbon-wrapper">
+                <div className="banner-wrapper">
+                    <img className="img-bg-noribbon" src="/images/contact-bg.jpg" />
+                    <div className="wrapper-mobile content mid">
+                        {children}
+                    </div>
+                    <img className="logo-img" src="/images/logo-sm.png" />
+                </div >
+                {!noribbon ? <img className="img-bg-ribbon" src="/images/ribbon.png" /> : null}
+            </div>
+
 
             <style jsx>{`
+                .ribbon-wrapper {
+                    position:relative;
+                }
+                .img-bg-ribbon {
+                    position: absolute;
+                    bottom: -36px;
+                    right: 0px;
+                    width: 136px;
+                }
                 .banner-wrapper {
                     position: relative;
-                    max-width: 380px;
                     margin-left: auto;
                     margin-right: auto;
                     height: 469px;
@@ -40,7 +52,7 @@ export default function BannerMobile({children, noribbon, noribbonHeight =  524}
                
                 .img-bg {
                     position:absolute;
-                    width:384px;
+                    width:100%;
                     height:524px;
                     z-index: -1;
                     top:0px;

@@ -12,7 +12,7 @@ export default function Home() {
                 </div>
                 <style jsx>{`
                   .txt-370 {
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: Gilroy-Medium,sans-serif;
                     font-weight: undefined;
                     color: rgba(255,255,255,1);
@@ -24,7 +24,7 @@ export default function Home() {
                   }
                   
                   .txt-266 {
-                    font-size: 45px;
+                    font-size: 3.3em;;
                     font-family: Gilroy-Black,sans-serif;
                     font-weight: undefined;
                     line-height: 96%;
@@ -40,7 +40,7 @@ export default function Home() {
                 <img className="about-bg" src="/images/about-img-sm.png" />
                 <div className="about-content mid">
                     <p className="txt-6610 flex-hcenter">PT JFD Investama</p>
-                    <p className="txt-799 flex-hend text-justify">
+                    <p className="txt-799 flex-hend text-justify body-mobile">
                         JFD Investama was founded in 2022 and pursues an ambition of becoming
                         top of mind choice regarding the investment company in Indonesia. Our
                         focus is to find the wonderful yet undervalue company in the financial
@@ -48,7 +48,7 @@ export default function Home() {
                         finding wonderful company through our core value. Perseverance,
                         worthiness, growth and unity.{" "}
                     </p>
-                    <p className="txt-8410 flex-hend text-justify">
+                    <p className="txt-8410 flex-hend text-justify body-mobile">
                         Furthermore, JFD Investama believes that GCG and unity must become part
                         of our identity Which is rooted on our company philosophy of “Growing
                         Together”. JFD able to deliver their philosophy by putting forwards
@@ -56,8 +56,8 @@ export default function Home() {
                         and social growth.
                     </p>
                     <div className="co-founder">
-                        <p className="txt-139 text-bold">Muhammad Jovan Ramadhan</p>
-                        <p className="txt-085">Commissioner & Founder</p>
+                        <p className="txt-139 text-bold body-mobile">Muhammad Jovan Ramadhan</p>
+                        <p className="txt-085 body-mobile">Commissioner & Founder</p>
                     </div>
                 </div>
             </div>
@@ -92,32 +92,36 @@ export default function Home() {
                 </div>
                 <img className="group-image display-block mid" src="/images/group-image.png" />
                 {/* <img className="bg-main-content" src="/images/bg-main-content.png" /> */}
+                <img className="img-bg-about" src="/images/ribbon.png" />
             </div>
             <div className="our-team-wrapper mid">
                 <div className="our-team text-center">Our Team</div>
                 <div className="jovan text-center">
                     <img
-                        src="/images/jovan-sm.png"
+                        src="/images/jovan-sm.jpg"
                         alt="Not Found"
                         className="image display-block mid"
+                        style={{width: 223}}
                     />
                     <p className="txt-7910 flex-hcenter">M Jovan Ramadhan</p>
                     <p className="txt-826 flex-hcenter">Commissioner & Founder</p>
                 </div>
                 <div className="jovan text-center">
                     <img
-                        src="/images/dhiliz-sm.png"
+                        src="/images/dihliz-sm.jpg"
                         alt="Not Found"
                         className="image"
+                        style={{width: 223}}
                     />
                     <p className="txt-7910 flex-hcenter">M Dihliz Maulana</p>
                     <p className="txt-826 flex-hcenter">CEO & Co-Founder</p>
                 </div>
                 <div className="jovan text-center">
                     <img
-                        src="/images/fara-sm.png"
+                        src="/images/fara-sm.jpg"
                         alt="Not Found"
                         className="image"
+                        style={{width: 223}}
                     />
                     <p className="txt-7910 flex-hcenter">Farah Qonita S</p>
                     <p className="txt-826 flex-hcenter">CEO & Co-Founder</p>
@@ -138,7 +142,7 @@ export default function Home() {
                     margin-top: -79px;
                 }
                 p.txt-6610.flex-hcenter {
-                    font-size: 34px;
+                    font-size: 2.4em;
                     font-weight: bold;
                     font-family: Gilroy-Black;
                     margin-bottom: 28px;
@@ -165,11 +169,18 @@ export default function Home() {
                     margin-top: 52px;
                     padding-top: 67px;
                     padding-bottom: 176px;
+                    position:relative;
+                }
+                .img-bg-about {
+                    position: absolute;
+                    bottom: -35px;
+                    right: 0px;
+                    width: 99px;
                 }
                 .vision {
-                    width: 207px;
+                    width: 280px;
                     font-family: Gilroy-Medium;
-                    font-size: 14px;
+                    font-size: 1.07em;
                     margin-bottom: 61px;
                 }
                 img.vision-image {
@@ -190,6 +201,7 @@ export default function Home() {
                 }
                 img.our-logo-image.mid.display-block {
                     margin-bottom: 14px;
+                    width:158px;
                 }
                 img.group-image.display-block.mid {
                     margin-top: 29px;

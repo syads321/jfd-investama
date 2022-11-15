@@ -68,7 +68,7 @@ export default function Joinvest() {
                 }
                 .txt-651 {
                     margin-top: 3px;
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: 'Gilroy-Regular';
                 }
                 .txt-248 {
@@ -95,7 +95,7 @@ export default function Joinvest() {
                     margin-top: 12px;
                 }
                 .txt-370 {
-                    font-size: 16px;
+                    font-size: 1.2em;
                     font-family: Gilroy-Medium,sans-serif;
                     font-weight: undefined;
                     color: rgba(255,255,255,1);                 
@@ -107,7 +107,7 @@ export default function Joinvest() {
                   }
                   
                   .txt-266 {
-                    font-size: 45px;
+                    font-size: 3.3em;;
                     font-family: Gilroy-Black,sans-serif;
                     font-weight: undefined;
                     line-height: 96%;

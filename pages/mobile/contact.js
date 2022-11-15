@@ -63,7 +63,7 @@ export default function Contact() {
                 .contact-us {
                     padding-top: 161px;
                     color: #FFF;
-                    font-size: 47px;
+                    font-size: 3em;
                 }
                 .txt-6101 {
                     margin: 0px;
@@ -88,10 +88,10 @@ export default function Contact() {
                     margin-top: 10px;
                 }
                 p.txt-246 {
-                    font-size: 18px;
+                    font-size: 1.1em;
                 }
                 .txt-405 {
-                    font-size: 20px;
+                    font-size: 1.4em;
                     margin-top: 22px;
                     margin-bottom: 0px;
                 }
@@ -111,7 +111,7 @@ export default function Contact() {
                     padding-bottom: 29px;
                 }
                 p.txt-8610 {
-                    font-size: 17px;
+                    font-size: 1.24em;
                 }
                 .email-wrapper {
                     margin-left: 10px;

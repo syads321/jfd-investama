@@ -9,7 +9,7 @@ export default function FooterMobile() {
                 <img className="bg-image" src="/images/bg-footer-mobile-2.png" />
                 <div className="wrapper-mobile">
                     <div className="image-footer-wrapper">
-                        <img src="/images/logo-footer.png" />
+                        <img style={{width: 56}} src="/images/logo-sm.svg" />
                     </div>
                 </div>
                 {/* <img className="bg" src="/images/bg-footer.png" /> */}

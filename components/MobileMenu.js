@@ -41,9 +41,9 @@ export default function MobileMenu() {
                 .menu-wrapper {
                     position: absolute;
                     top: 40px;
-                    left:0px;
-                    z-index:1000;
-                    width:100%;
+                    left: 0px;
+                    z-index: 100;
+                    width: 100%;
                 }
                 .menu-wrapper button, .main-menu button {
                     background:none;
@@ -59,11 +59,11 @@ export default function MobileMenu() {
                 }
                 .main-menu {
                     position: fixed;
-                    left: 50px;
-                    top: 50px;
+                    right: 40px;
+                    top: 40px;
                     background: #0b2b40f5;
                     border-radius: 8px;
-                    z-index: 100;
+                    z-index: 101;
                 }
                 .group-753 {
                     padding: 80px 101px 20px 40px;

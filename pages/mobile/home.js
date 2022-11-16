@@ -100,7 +100,7 @@ export default function HomeMobile() {
         position: relative;
         padding-bottom: 10px;
         overflow:hidden;
-        background: url('/images/home-bg.png') no-repeat bottom right;
+        background: url(/images/home-bg.png) no-repeat bottom right;
     }
     .home-bg {
         position: absolute;
@@ -163,7 +163,7 @@ export default function HomeMobile() {
     .mid-preface-home {
         margin-top: 84px;
         overflow:hidden;
-        background: #0B2B40 url('/images/bg-mid-preface.png') no-repeat right top;
+        background: #0B2B40 url(/images/bg-mid-preface.png) no-repeat right top;
     }
     .mid-preface-home .bg {
         width: 100%;

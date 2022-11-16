@@ -9,7 +9,7 @@ export default function BannerMobile({ children, noribbon, noribbonHeight = 524 
                     <div className="wrapper-mobile content mid">
                         {children}
                     </div>
-                    <img className="logo-img" src="/images/logo-sm.png" />
+                    <img className="logo-img" style={{width: 80}} src="/images/logo-sm.svg" />
                 </div >
                 {!noribbon ? <img className="img-bg-ribbon" src="/images/ribbon.png" /> : null}
             </div>

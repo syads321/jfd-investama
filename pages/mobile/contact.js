@@ -4,6 +4,7 @@ export default function Contact() {
     return (
         <>
             <div className="main-wrapper">
+                <img className="logo-img" style={{width: 80}} src="/images/logo-sm.svg" />
                 <img className="contact-bg" src="/images/contact-bg.jpg" />
                 <div className="contact-us mid wrapper gilroy-black">
                     <p className="txt-6101">Contact Us</p>
@@ -46,6 +47,11 @@ export default function Contact() {
 
             <style>
                 {`
+                .logo-img {
+                    position:absolute;
+                    top: 33px;
+                    left: 41px;
+                }
                 .main-wrapper {
                     position:relative;
                     padding-bottom: 61px;

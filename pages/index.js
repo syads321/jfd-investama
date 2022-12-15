@@ -12,7 +12,7 @@ export default function Home() {
       <Banner>
         <p className="txt-823">Growing Together</p>
         <p className="txt-1110">
-          We focus on JFD finding the wonderful yet undervalue company in the
+          We focus on finding the wonderful yet undervalue company in the
           financial market.
         </p>
         <div className="group-3">
